@@ -18,7 +18,6 @@
             line-height: 1.6;
         }
 
-        /* ヘッダー */
         header {
             position: fixed;
             top: 0;
@@ -61,14 +60,12 @@
             color: #f8e602;
         }
 
-        /* メインコンテンツ */
         main {
             max-width: 1400px;
             margin: 100px auto 60px;
             padding: 0 30px;
         }
 
-        /* セクションタイトル */
         .section-title {
             font-size: 32px;
             font-weight: 900;
@@ -87,7 +84,6 @@
             margin-bottom: 30px;
         }
 
-        /* カードグリッド */
         .card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -151,7 +147,6 @@
             gap: 4px;
         }
 
-        /* ローディング */
         .loading {
             text-align: center;
             padding: 60px 20px;
@@ -159,7 +154,6 @@
             font-size: 18px;
         }
 
-        /* フッター */
         footer {
             background: #0a0a0a;
             border-top: 2px solid #f8e602;
@@ -210,16 +204,15 @@
 <body>
     <header>
         <nav>
-            <a href="/" class="logo">VSINGER CHRONICLE</a>
+            <a href="/vsinger-chronicle/" class="logo">VSINGER CHRONICLE</a>
             <div class="nav-links">
-                <a href="/">HOME</a>
-                <a href="/archive.html">ARCHIVE</a>
+                <a href="/vsinger-chronicle/">HOME</a>
+                <a href="/vsinger-chronicle/archive.html">ARCHIVE</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <!-- FEATURED -->
         <section id="featured">
             <h2 class="section-title">FEATURED</h2>
             <p class="section-subtitle">注目の記事</p>
@@ -228,7 +221,6 @@
             </div>
         </section>
 
-        <!-- TODAY'S VOICE -->
         <section id="todays-voice">
             <h2 class="section-title">TODAY'S VOICE // 今日の歌声</h2>
             <p class="section-subtitle">本日注目の配信</p>
@@ -237,7 +229,6 @@
             </div>
         </section>
 
-        <!-- NEW STARS -->
         <section id="new-stars">
             <h2 class="section-title">NEW STARS // 新星たち</h2>
             <p class="section-subtitle">新人Vsingerの発掘</p>
@@ -246,7 +237,6 @@
             </div>
         </section>
 
-        <!-- TRENDING NOW -->
         <section id="trending">
             <h2 class="section-title">TRENDING NOW // 急上昇</h2>
             <p class="section-subtitle">急成長中のVsinger</p>
@@ -259,18 +249,19 @@
     <footer>
         <div class="footer-content">
             <div class="footer-links">
-                <a href="/privacy.html">プライバシーポリシー</a>
-                <a href="/terms.html">利用規約</a>
+                <a href="/vsinger-chronicle/privacy.html">プライバシーポリシー</a>
+                <a href="/vsinger-chronicle/terms.html">利用規約</a>
             </div>
             <p>© 2026 Vsinger Chronicle. All rights reserved.</p>
         </div>
     </footer>
 
     <script>
-        // articles.jsonを読み込んで表示
+        const BASE_PATH = '/vsinger-chronicle';
+        
         async function loadArticles() {
             try {
-                const response = await fetch('/vsinger-chronicle/articles.json');
+                const response = await fetch(`${BASE_PATH}/articles.json`);
                 const articles = await response.json();
                 
                 if (!articles || articles.length === 0) {
@@ -278,13 +269,11 @@
                     return;
                 }
                 
-                // カテゴリごとに分類
-const featured = articles.slice(0, 4);
-const editorial = articles.filter(a => a.category === '特集').slice(0, 4);
-const newDiscovery = articles.filter(a => a.category === '新人発掘').slice(0, 4);
-const trending = articles.filter(a => a.growth >= 150).slice(0, 4);  // 成長率150%以上
-
-                // 表示
+                const featured = articles.slice(0, 4);
+                const editorial = articles.filter(a => a.category === '特集').slice(0, 4);
+                const newDiscovery = articles.filter(a => a.category === '新人発掘').slice(0, 4);
+                const trending = articles.filter(a => a.growth >= 150).slice(0, 4);
+                
                 displayArticles('featured-grid', featured);
                 displayArticles('todays-grid', editorial);
                 displayArticles('newstars-grid', newDiscovery);
@@ -305,7 +294,7 @@ const trending = articles.filter(a => a.growth >= 150).slice(0, 4);  // 成長�
             }
             
             container.innerHTML = articles.map(article => `
-            <div class="card" onclick="location.href='/vsinger-chronicle/articles/${article.fileName}'">
+                <div class="card" onclick="location.href='${BASE_PATH}/articles/${article.fileName}'">
                     <div class="card-badge">${getCategoryLabel(article.category)}</div>
                     <div class="card-content">
                         <h3 class="card-title">${article.title}</h3>
@@ -321,7 +310,7 @@ const trending = articles.filter(a => a.growth >= 150).slice(0, 4);  // 成長�
         
         function getCategoryLabel(category) {
             const labels = {
-                'editorial': '特集',
+                '特集': '特集',
                 '新人発掘': '新人発掘',
                 '急上昇': '急上昇',
                 'カバー': 'カバー'
@@ -348,7 +337,6 @@ const trending = articles.filter(a => a.growth >= 150).slice(0, 4);  // 成長�
             });
         }
         
-        // ページ読み込み時に実行
         loadArticles();
     </script>
 </body>
