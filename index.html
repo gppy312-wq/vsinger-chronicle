@@ -270,7 +270,7 @@
         // articles.jsonを読み込んで表示
         async function loadArticles() {
             try {
-                const response = await fetch('/articles.json');
+                const response = await fetch('/vsinger-chronicle/articles.json');
                 const articles = await response.json();
                 
                 if (!articles || articles.length === 0) {
@@ -305,7 +305,7 @@ const trending = articles.filter(a => a.growth >= 150).slice(0, 4);  // 成長�
             }
             
             container.innerHTML = articles.map(article => `
-            <div class="card" onclick="location.href='/articles/${article.fileName}'">
+            <div class="card" onclick="location.href='/vsinger-chronicle/articles/${article.fileName}'">
                     <div class="card-badge">${getCategoryLabel(article.category)}</div>
                     <div class="card-content">
                         <h3 class="card-title">${article.title}</h3>
