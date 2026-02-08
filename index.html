@@ -305,7 +305,7 @@ const trending = articles.filter(a => a.growth >= 150).slice(0, 4);  // 成長�
             }
             
             container.innerHTML = articles.map(article => `
-                <div class="card" onclick="location.href='/articles/2026-02-08-${article.videoId}.html'">
+            <div class="card" onclick="location.href='/articles/${article.fileName}'">
                     <div class="card-badge">${getCategoryLabel(article.category)}</div>
                     <div class="card-content">
                         <h3 class="card-title">${article.title}</h3>
