@@ -279,11 +279,11 @@
                 }
                 
                 // カテゴリごとに分類
-                const featured = articles.slice(0, 4);
-                const editorial = articles.filter(a => a.category === 'editorial').slice(0, 4);
-                const newDiscovery = articles.filter(a => a.category === '新人発掘').slice(0, 4);
-                const trending = articles.filter(a => a.category === '急上昇').slice(0, 4);
-                
+const featured = articles.slice(0, 4);
+const editorial = articles.filter(a => a.category === '特集').slice(0, 4);
+const newDiscovery = articles.filter(a => a.category === '新人発掘').slice(0, 4);
+const trending = articles.filter(a => a.growth >= 150).slice(0, 4);  // 成長率150%以上
+
                 // 表示
                 displayArticles('featured-grid', featured);
                 displayArticles('todays-grid', editorial);
