@@ -1,0 +1,9 @@
+json{
+  "lastUpdate": "",
+  "articles": [],
+  "rankings": {
+    "todaysVoice": [],
+    "newStars": [],
+    "trending": []
+  }
+}
