@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSINGER CHRONICLE</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Noto Serif JP', 'TP明朝', serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #ddd;
+            z-index: 1000;
+        }
+
+        nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 6px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+        }
+
+        .nav-links a {
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #ff4500;
+        }
+
+        footer {
+            background: #fff;
+            padding: 60px 40px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+
+        .footer-title {
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 8px;
+            margin-bottom: 15px;
+        }
+
+        .footer-subtitle {
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            opacity: 0.6;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+  
+    
+    <style>
+        main {
+            padding-top: 80px;
+        }
+
+        section {
+            padding: 80px 40px;
+            scroll-margin-top: 80px;
+        }
+
+        .section-white {
+            background: #f5f5f5;
+        }
+
+        .section-red {
+            background: #ff4500;
+            color: #fff;
+        }
+
+        .section-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .section-title {
+            font-size: 64px;
+            font-weight: 900;
+            letter-spacing: 24px;
+            margin-bottom: 15px;
+        }
+
+        .section-subtitle {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 6px;
+            opacity: 0.6;
+        }
+
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .featured-card {
+            cursor: pointer;
+            transition: opacity 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .featured-card:hover {
+            opacity: 0.7;
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 280px;
+            background: #ddd;
+            margin-bottom: 20px;
+        }
+
+        .featured-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .featured-badge {
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            margin-bottom: 12px;
+            opacity: 0.6;
+        }
+
+        .featured-title {
+            font-size: 20px;
+            font-weight: 900;
+            letter-spacing: 4px;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        .featured-channel {
+            font-size: 11px;
+            font-weight: 400;
+            font-style: italic;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+            opacity: 0.7;
+        }
+
+        .featured-stats {
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            opacity: 0.6;
+        }
+
+        .articles-link-container {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .articles-link {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 6px;
+            color: #333;
+            text-decoration: none;
+            padding: 20px 60px;
+            border: 1px solid #333;
+            transition: all 0.3s;
+        }
+
+        .articles-link:hover {
+            background: #333;
+            color: #fff;
+        }
+
+        .rank-card {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            padding: 20px 0;
+            cursor: pointer;
+            transition: opacity 0.3s;
+            border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .section-red .rank-card {
+            border-bottom-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .rank-card:hover {
+            opacity: 0.7;
+        }
+
+        .rank-number {
+            font-size: 40px;
+            font-weight: 900;
+            min-width: 70px;
+            text-align: center;
+            opacity: 0.3;
+        }
+
+        .rank-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #ddd;
+            flex-shrink: 0;
+        }
+
+        .rank-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .rank-info {
+            flex: 1;
+        }
+
+        .rank-channel {
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+            opacity: 0.6;
+        }
+
+        .rank-title {
+            font-size: 20px;
+            font-weight: 900;
+            letter-spacing: 4px;
+            margin-bottom: 8px;
+        }
+
+        .rank-stats {
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            opacity: 0.6;
+        }
+
+        .empty-message {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 14px;
+            letter-spacing: 3px;
+            opacity: 0.5;
+        }
+
+        @media (max-width: 1024px) {
+            .featured-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 40px;
+                letter-spacing: 12px;
+            }
+
+            .featured-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .rank-number {
+                font-size: 28px;
+                min-width: 50px;
+            }
+
+            .rank-avatar {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    </style>
+  
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="index.html" class="logo">VSINGER CHRONICLE</a>
+            <div class="nav-links">
+                <a href="index.html#featured">FEATURED</a>
+                <a href="index.html#todays-voice">TODAY'S VOICE</a>
+                <a href="index.html#new-stars">NEW STARS</a>
+                <a href="index.html#trending">TRENDING</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="featured" class="section-white">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">特　集</h2>
+                    <p class="section-subtitle">FEATURED ARTICLES</p>
+                </div>
+                <div class="featured-grid">
+                    
+    <a href="articles/" class="featured-card">
+        <div class="featured-image">
+            <img src="https://i.ytimg.com/vi/SM8HT6V_7as/maxresdefault.jpg" alt="あにまの歌ってみたチャンネル">
+        </div>
+        <div class="featured-badge">DATA ANALYSIS</div>
+        <h3 class="featured-title">あにま、3年で総再生100万回突破の歌ってみたVsinger</h3>
+        <p class="featured-channel">あにまの歌ってみたチャンネル</p>
+        <p class="featured-stats">登録 5.7K　再生 1.1M　成長率 +0%</p>
+    </a>
+
+    <a href="articles/" class="featured-card">
+        <div class="featured-image">
+            <img src="https://i.ytimg.com/vi/alVlCmCe8GE/maxresdefault.jpg" alt="rain@沖縄方言で歌ってみた">
+        </div>
+        <div class="featured-badge">DATA ANALYSIS</div>
+        <h3 class="featured-title">沖縄方言特化型Vsingerの挑戦と成長軌跡</h3>
+        <p class="featured-channel">rain@沖縄方言で歌ってみた</p>
+        <p class="featured-stats">登録 303.0K　再生 128.8M　成長率 +0%</p>
+    </a>
+
+    <a href="articles/" class="featured-card">
+        <div class="featured-image">
+            <img src="https://i.ytimg.com/vi/SM8HT6V_7as/maxresdefault.jpg" alt="あにまの歌ってみたチャンネル">
+        </div>
+        <div class="featured-badge">DATA ANALYSIS</div>
+        <h3 class="featured-title">あにま、3年で5,700人獲得のVsinger分析</h3>
+        <p class="featured-channel">あにまの歌ってみたチャンネル</p>
+        <p class="featured-stats">登録 5.7K　再生 1.1M　成長率 +0%</p>
+    </a>
+                </div>
+                <div class="articles-link-container">
+                    <a href="articles.html" class="articles-link">他記事一覧</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="todays-voice" class="section-red">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">今日の歌声</h2>
+                    <p class="section-subtitle">TODAY'S VOICE</p>
+                </div>
+                
+    <a href="vsinger-profile.html?channel=UCHefdkPE5A4EqGHgDhrVfzw" class="rank-card">
+        <div class="rank-number">01</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/6mTAr79ArrI/hqdefault.jpg" alt="ミナミイズミ / IZUMI MINAMI">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">ミナミイズミ / IZUMI MINAMI</div>
+            <div class="rank-stats">【#歌枠】BUMP OF CHICKENルーレット歌枠！1曲聴いてってください！ singing stream - ミナミイズミ  #shorts #vsinger #karaoke　再生 7.5K　いいね 703</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UCq7n-GF0SZ7Pt1NCVfTvIaQ" class="rank-card">
+        <div class="rank-number">02</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/TWDK-h9jJ6M/hqdefault.jpg" alt="巫てんり / Kannagi Tenri ">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">巫てんり / Kannagi Tenri </div>
+            <div class="rank-stats">【#歌枠】名曲揃いの星街すいせいさん縛り☄ #ホロライブ 【巫てんり　#KARAOKE #vtuber #shorts 】　再生 6.1K　いいね 1.1K</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UC0HX1e5jJnhN5Xn0epV2wzA" class="rank-card">
+        <div class="rank-number">03</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/whvC87nCR4w/hqdefault.jpg" alt="MEDA">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">MEDA</div>
+            <div class="rank-stats">【#歌枠】やさしく。でも、本気で。ピアノ伴奏縛り┆睡眠導入×作業BGM【MEDA / RK Music】　再生 2.8K　いいね 538</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UCiJTSXFssvK3lBVP88CCLdg" class="rank-card">
+        <div class="rank-number">04</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/-EDpPw_H8d8/hqdefault.jpg" alt="渡邊里紗 / RISA WATANABE">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">渡邊里紗 / RISA WATANABE</div>
+            <div class="rank-stats">【アニソン歌枠/初見さん大歓迎】一曲だけでも聴いてって！アニソン神曲を歌うよ！【渡邊里紗 #超銀河レコード #りささんらいぶ 】　再生 2.6K　いいね 76</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UCqDN60QQx3GGmfagx1eyIEg" class="rank-card">
+        <div class="rank-number">05</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/X6q0JeW_QXQ/hqdefault.jpg" alt="彷徨 鈴【Samayoi Suzu】">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">彷徨 鈴【Samayoi Suzu】</div>
+            <div class="rank-stats">【歌枠*song】寝る前に1曲どうでしょう？🎤🌙【ぱわーぼいすVtuber／彷徨鈴】#shorts #vtuber #vsinger　再生 2.6K　いいね 551</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UCxQQo62upt8O7LyaQ1mFeUQ" class="rank-card">
+        <div class="rank-number">06</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/Zm_AKENUVXs/hqdefault.jpg" alt="夜咲リリィ">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">夜咲リリィ</div>
+            <div class="rank-stats">星街すいせい　Caramel Pain　【歌ってみた-cover-】#shorts　再生 1.9K　いいね 3</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UCqYXJ5M55HWE6zyvl6rjIaA" class="rank-card">
+        <div class="rank-number">07</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/39BVMXrhTkU/hqdefault.jpg" alt="ヨノ-Yono">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">ヨノ-Yono</div>
+            <div class="rank-stats">【 歌枠/KARAOKE 】重大告知な～！！！！！🌙🎼【 #ヨノ  / RK Music】　再生 1.8K　いいね 341</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UC3zSmwgOOIjWUbus4cZIUPg" class="rank-card">
+        <div class="rank-number">08</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/27YNj75x7dg/hqdefault.jpg" alt="MUS1CA">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">MUS1CA</div>
+            <div class="rank-stats">【#歌枠】縦型歌枠┊︎あなたの夜を歌で彩ります💎【#MUS1CA / #Vsinger / #shorts】　再生 1.7K　いいね 313</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UC32S5ICRiaEAFTyQjTlk7rQ" class="rank-card">
+        <div class="rank-number">09</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/VHbBPW1fvtI/hqdefault.jpg" alt="エントツ video">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">エントツ video</div>
+            <div class="rank-stats">【布施明/シクラメンのかほり】オペラ歌手『エントツ』が歌ってみた！#Shorts１　再生 1.6K　いいね 4</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UC4nXxql27UWzf1QBGwnI75g" class="rank-card">
+        <div class="rank-number">10</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/VqsAeScvDw4/hqdefault.jpg" alt="霞翠ひびき / Hibiki Ch.">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">霞翠ひびき / Hibiki Ch.</div>
+            <div class="rank-stats">【歌枠】魂に灯りがともる生歌、キミにあげる🎧02【#霞翠ひびき / るみぷろ】 #新人vtuber #vsinger #歌枠　再生 1.6K　いいね 435</div>
+        </div>
+    </a>
+            </div>
+        </section>
+
+        <section id="new-stars" class="section-white">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">新　星</h2>
+                    <p class="section-subtitle">NEW STARS</p>
+                </div>
+                <div class="empty-message">データを準備中...</div>
+            </div>
+        </section>
+
+        <section id="trending" class="section-red">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">急上昇</h2>
+                    <p class="section-subtitle">TRENDING NOW</p>
+                </div>
+                
+    <a href="vsinger-profile.html?channel=UCbH8JBSta8zxso-Y3ttruHQ" class="rank-card">
+        <div class="rank-number">01</div>
+        <div class="rank-avatar">
+            <img src="https://yt3.ggpht.com/Mi09gMDK8fzgESyyTHZkHjN1BjrGwJ5OmqeOsPhKKrqK8i6qLDdJYxSFpN2B3oiNMdQ9RgHaJA=s800-c-k-c0x00ffffff-no-rj" alt="あにまの歌ってみたチャンネル">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">成長率 +0%</div>
+            <div class="rank-title">あにまの歌ってみたチャンネル</div>
+            <div class="rank-stats">登録 5.7K　再生 1.1M</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UC9uoyAnGc0V3wtXMmg9XQ7w" class="rank-card">
+        <div class="rank-number">02</div>
+        <div class="rank-avatar">
+            <img src="https://yt3.ggpht.com/LpgMYIpE47OjltHSSJsxgK-XJvXdJFPmSMtzJNeeQhkdYFqhNjopwSoD0fw2zA2eJdkNblaV5Q=s800-c-k-c0x00ffffff-no-rj" alt="O-kami🌙【薬学生歌ってみた】">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">成長率 +0%</div>
+            <div class="rank-title">O-kami🌙【薬学生歌ってみた】</div>
+            <div class="rank-stats">登録 708　再生 63.9K</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UC04BNu3UvR6mKJ3CepeVfuw" class="rank-card">
+        <div class="rank-number">03</div>
+        <div class="rank-avatar">
+            <img src="https://yt3.ggpht.com/QlrrxnwIqTge-ZaV268A8dlgM11s9b6GUhF2Dlib9nAmmgEc552YzJzwXBQttP6CWwETRNElWg=s800-c-k-c0x00ffffff-no-rj" alt="鋼兵歌ってみたまとめ">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">成長率 +0%</div>
+            <div class="rank-title">鋼兵歌ってみたまとめ</div>
+            <div class="rank-stats">登録 35　再生 14.3K</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UCu84IrpgLbmEelD7E_755QA" class="rank-card">
+        <div class="rank-number">04</div>
+        <div class="rank-avatar">
+            <img src="https://yt3.ggpht.com/3ay1a7_LEgoAs18CV5eXFe5rYaNWpmH8lqeK2cxUp4i-3npTKuK2OHxQqA5kAwj1S39vsJ9Q=s800-c-k-c0x00ffffff-no-rj" alt="シンガーNanao【アニソン歌ってみた】">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">成長率 +0%</div>
+            <div class="rank-title">シンガーNanao【アニソン歌ってみた】</div>
+            <div class="rank-stats">登録 96.6K　再生 30.5M</div>
+        </div>
+    </a>
+
+    <a href="vsinger-profile.html?channel=UChFXPgI9dG2eEKjSCbxlXfg" class="rank-card">
+        <div class="rank-number">05</div>
+        <div class="rank-avatar">
+            <img src="https://yt3.ggpht.com/QYPyIgUuUlIlLfwQHkAnhuJriSv5UJ7yegsTZYsgwRaEAa1SRW00baruqJdWorHLcrE-lgi5c80=s800-c-k-c0x00ffffff-no-rj" alt="【歌ってみた】Senaさん">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">成長率 +0%</div>
+            <div class="rank-title">【歌ってみた】Senaさん</div>
+            <div class="rank-stats">登録 4.4K　再生 1.2M</div>
+        </div>
+    </a>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <div class="footer-title">VSINGER CHRONICLE</div>
+        <div class="footer-subtitle">VIRTUAL SINGER MONITORING SYSTEM / VERSION 1.0</div>
+    </footer>
+</body>
+</html>
