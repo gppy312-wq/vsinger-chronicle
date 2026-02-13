@@ -1,6 +1,36 @@
 {
-  "lastUpdate": "2026-02-12T19:34:26.776Z",
+  "lastUpdate": "2026-02-13T11:39:16.598Z",
   "articles": [
+    {
+      "date": "2026-02-12T15:00:00.000Z",
+      "title": "あにま、3年で登録者5,700人のVsinger",
+      "channelName": "あにまの歌ってみたチャンネル",
+      "category": "DATA ANALYSIS",
+      "type": "editorial",
+      "videoId": "SM8HT6V_7as",
+      "channelId": "UCbH8JBSta8zxso-Y3ttruHQ",
+      "subscribers": 5700,
+      "views": 1091687,
+      "growth": 0,
+      "fileName": "",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SM8HT6V_7as/maxresdefault.jpg",
+      "channelThumbnailUrl": ""
+    },
+    {
+      "date": "2026-02-12T15:00:00.000Z",
+      "title": "rain@沖縄方言で歌ってみた、30万人突破の軌跡",
+      "channelName": "rain@沖縄方言で歌ってみた",
+      "category": "DATA ANALYSIS",
+      "type": "editorial",
+      "videoId": "7qkqVPlL--o",
+      "channelId": "UCFK3fHMtygtW5DArziCzfsQ",
+      "subscribers": 303000,
+      "views": 128802381,
+      "growth": 0,
+      "fileName": "",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7qkqVPlL--o/maxresdefault.jpg",
+      "channelThumbnailUrl": ""
+    },
     {
       "date": "2026-02-11T15:00:00.000Z",
       "title": "あにま、3年で総再生100万回突破の歌ってみたVsinger",
@@ -65,12 +95,76 @@
   "rankings": {
     "todaysVoice": [
       {
+        "channelId": "UC-bZHxqfAgVlr_plHf_mjwg",
+        "channelName": "にゃるは",
+        "videoId": "hd7gSE7EyLw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/hd7gSE7EyLw/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【99％の人が解けないらしい】 #クイズ #歌ってみた #にゃるは　再生 32.4K　いいね 1.0K"
+      },
+      {
+        "channelId": "UCuI_opAVX6qbxZY-a-AxFuQ",
+        "channelName": "Niko Ch. 虎金妃笑虎 - FLOW GLOW",
+        "videoId": "cocVqXU_HXs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/cocVqXU_HXs/hqdefault_live.jpg",
+        "label": "CHANNEL",
+        "stats": "【ホロライブ縛り歌枠】ホロメン先輩の大好きなオリ曲を歌っていく！【虎金妃笑虎】　再生 27.5K　いいね 5.3K"
+      },
+      {
+        "channelId": "UCtQwleVyBMjBGNuUQ7a-KYg",
+        "channelName": "雨夜リズ / Amayo Liz",
+        "videoId": "S1dpbc9ERdA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/S1dpbc9ERdA/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【歌枠】急に歌枠をしてみんなを怖がらせましょう【雨夜リズ/ミリプロ】　再生 15.3K　いいね 1.3K"
+      },
+      {
+        "channelId": "UCcYUsB6q1UGM8wCD7R1-eJg",
+        "channelName": "おさでい【すにすて】",
+        "videoId": "YXFd7sE38TU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/YXFd7sE38TU/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "キノコが 夜撫でるメノウ 歌ってみた　再生 11.0K　いいね 3.7K"
+      },
+      {
+        "channelId": "UCmkA3ZlbadJFCfR7OnQWM0A",
+        "channelName": "Whale Taylor Ch.【ホエール・テイラー】",
+        "videoId": "8RasMPs1OB8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8RasMPs1OB8/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "サヨナラノツバサ　マクロスF  #shorts #vtuber #歌ってみた　再生 10.8K　いいね 767"
+      },
+      {
+        "channelId": "UCuI_opAVX6qbxZY-a-AxFuQ",
+        "channelName": "Niko Ch. 虎金妃笑虎 - FLOW GLOW",
+        "videoId": "rgb3pK2SZCU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/rgb3pK2SZCU/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "右肩の蝶カッコよくて歌ってみた！　再生 8.9K　いいね 1.7K"
+      },
+      {
         "channelId": "UCHefdkPE5A4EqGHgDhrVfzw",
         "channelName": "ミナミイズミ / IZUMI MINAMI",
         "videoId": "6mTAr79ArrI",
         "thumbnailUrl": "https://i.ytimg.com/vi/6mTAr79ArrI/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【#歌枠】BUMP OF CHICKENルーレット歌枠！1曲聴いてってください！ singing stream - ミナミイズミ  #shorts #vsinger #karaoke　再生 7.5K　いいね 703"
+        "stats": "【#歌枠】BUMP OF CHICKENルーレット歌枠！1曲聴いてってください！ singing stream - ミナミイズミ  #shorts #vsinger #karaoke　再生 8.3K　いいね 737"
+      },
+      {
+        "channelId": "UCxP9lRliG6xyAbx8Dp3OR1w",
+        "channelName": "みこと",
+        "videoId": "LxOS1cmCSXI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/LxOS1cmCSXI/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "ラプラスショコラ/Kai【歌ってみた】【オリジナルMV】　再生 8.1K　いいね 4.0K"
+      },
+      {
+        "channelId": "UCxIK6x6sG7Ln5vjjPYpgeAw",
+        "channelName": "Chogakusei Official",
+        "videoId": "yItXdroqHiI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/yItXdroqHiI/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【超学生×Sou】LUVORATORRRRRY! - Arrange ver. @歌ってみた　再生 7.8K　いいね 2.0K"
       },
       {
         "channelId": "UCq7n-GF0SZ7Pt1NCVfTvIaQ",
@@ -78,71 +172,7 @@
         "videoId": "TWDK-h9jJ6M",
         "thumbnailUrl": "https://i.ytimg.com/vi/TWDK-h9jJ6M/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【#歌枠】名曲揃いの星街すいせいさん縛り☄ #ホロライブ 【巫てんり　#KARAOKE #vtuber #shorts 】　再生 6.1K　いいね 1.1K"
-      },
-      {
-        "channelId": "UC0HX1e5jJnhN5Xn0epV2wzA",
-        "channelName": "MEDA",
-        "videoId": "whvC87nCR4w",
-        "thumbnailUrl": "https://i.ytimg.com/vi/whvC87nCR4w/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【#歌枠】やさしく。でも、本気で。ピアノ伴奏縛り┆睡眠導入×作業BGM【MEDA / RK Music】　再生 2.8K　いいね 538"
-      },
-      {
-        "channelId": "UCiJTSXFssvK3lBVP88CCLdg",
-        "channelName": "渡邊里紗 / RISA WATANABE",
-        "videoId": "-EDpPw_H8d8",
-        "thumbnailUrl": "https://i.ytimg.com/vi/-EDpPw_H8d8/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【アニソン歌枠/初見さん大歓迎】一曲だけでも聴いてって！アニソン神曲を歌うよ！【渡邊里紗 #超銀河レコード #りささんらいぶ 】　再生 2.6K　いいね 76"
-      },
-      {
-        "channelId": "UCqDN60QQx3GGmfagx1eyIEg",
-        "channelName": "彷徨 鈴【Samayoi Suzu】",
-        "videoId": "X6q0JeW_QXQ",
-        "thumbnailUrl": "https://i.ytimg.com/vi/X6q0JeW_QXQ/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【歌枠*song】寝る前に1曲どうでしょう？🎤🌙【ぱわーぼいすVtuber／彷徨鈴】#shorts #vtuber #vsinger　再生 2.6K　いいね 551"
-      },
-      {
-        "channelId": "UCxQQo62upt8O7LyaQ1mFeUQ",
-        "channelName": "夜咲リリィ",
-        "videoId": "Zm_AKENUVXs",
-        "thumbnailUrl": "https://i.ytimg.com/vi/Zm_AKENUVXs/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "星街すいせい　Caramel Pain　【歌ってみた-cover-】#shorts　再生 1.9K　いいね 3"
-      },
-      {
-        "channelId": "UCqYXJ5M55HWE6zyvl6rjIaA",
-        "channelName": "ヨノ-Yono",
-        "videoId": "39BVMXrhTkU",
-        "thumbnailUrl": "https://i.ytimg.com/vi/39BVMXrhTkU/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【 歌枠/KARAOKE 】重大告知な～！！！！！🌙🎼【 #ヨノ  / RK Music】　再生 1.8K　いいね 341"
-      },
-      {
-        "channelId": "UC3zSmwgOOIjWUbus4cZIUPg",
-        "channelName": "MUS1CA",
-        "videoId": "27YNj75x7dg",
-        "thumbnailUrl": "https://i.ytimg.com/vi/27YNj75x7dg/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【#歌枠】縦型歌枠┊︎あなたの夜を歌で彩ります💎【#MUS1CA / #Vsinger / #shorts】　再生 1.7K　いいね 313"
-      },
-      {
-        "channelId": "UC32S5ICRiaEAFTyQjTlk7rQ",
-        "channelName": "エントツ video",
-        "videoId": "VHbBPW1fvtI",
-        "thumbnailUrl": "https://i.ytimg.com/vi/VHbBPW1fvtI/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【布施明/シクラメンのかほり】オペラ歌手『エントツ』が歌ってみた！#Shorts１　再生 1.6K　いいね 4"
-      },
-      {
-        "channelId": "UC4nXxql27UWzf1QBGwnI75g",
-        "channelName": "霞翠ひびき / Hibiki Ch.",
-        "videoId": "VqsAeScvDw4",
-        "thumbnailUrl": "https://i.ytimg.com/vi/VqsAeScvDw4/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【歌枠】魂に灯りがともる生歌、キミにあげる🎧02【#霞翠ひびき / るみぷろ】 #新人vtuber #vsinger #歌枠　再生 1.6K　いいね 435"
+        "stats": "【#歌枠】名曲揃いの星街すいせいさん縛り☄ #ホロライブ 【巫てんり　#KARAOKE #vtuber #shorts 】　再生 7.4K　いいね 1.2K"
       }
     ],
     "newStars": [],
@@ -173,7 +203,7 @@
         "channelName": "シンガーNanao【アニソン歌ってみた】",
         "thumbnailUrl": "https://yt3.ggpht.com/3ay1a7_LEgoAs18CV5eXFe5rYaNWpmH8lqeK2cxUp4i-3npTKuK2OHxQqA5kAwj1S39vsJ9Q=s800-c-k-c0x00ffffff-no-rj",
         "label": "成長率 +0%",
-        "stats": "登録 96.6K　再生 30.5M"
+        "stats": "登録 96.7K　再生 30.5M"
       },
       {
         "channelId": "UChFXPgI9dG2eEKjSCbxlXfg",
