@@ -70,6 +70,75 @@
             color: #ff4500;
         }
 
+        /* ハンバーガーメニューボタン（PC時は非表示） */
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            z-index: 1001;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: #333;
+            margin: 5px 0;
+            transition: all 0.3s;
+        }
+
+        /* ハンバーガー開いた時のアニメーション */
+        .hamburger.open span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .hamburger.open span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.open span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* モバイルメニュー（デフォルト非表示） */
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            background: rgba(255, 255, 255, 0.98);
+            border-top: 1px solid #ddd;
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+
+        .mobile-menu.open {
+            max-height: 300px;
+            padding: 20px 40px;
+        }
+
+        .mobile-menu a {
+            display: block;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: #333;
+            text-decoration: none;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            transition: color 0.3s;
+        }
+
+        .mobile-menu a:last-child {
+            border-bottom: none;
+        }
+
+        .mobile-menu a:hover {
+            color: #ff4500;
+        }
+
         footer {
             background: #fff;
             padding: 60px 40px;
@@ -92,8 +161,29 @@
         }
 
         @media (max-width: 768px) {
+            nav {
+                padding: 15px 20px;
+            }
+
+            .logo {
+                font-size: 13px;
+                letter-spacing: 4px;
+            }
+
             .nav-links {
                 display: none;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .mobile-menu {
+                display: flex;
+            }
+
+            footer {
+                padding: 40px 20px;
             }
         }
     </style>
@@ -312,6 +402,14 @@
         }
 
         @media (max-width: 768px) {
+            section {
+                padding: 60px 20px;
+            }
+
+            .section-header {
+                margin-bottom: 40px;
+            }
+
             .section-title {
                 font-size: 40px;
                 letter-spacing: 12px;
@@ -319,6 +417,10 @@
 
             .featured-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .rank-card {
+                gap: 15px;
             }
 
             .rank-number {
@@ -329,6 +431,11 @@
             .rank-avatar {
                 width: 60px;
                 height: 60px;
+            }
+
+            .rank-title {
+                font-size: 16px;
+                letter-spacing: 2px;
             }
         }
     </style>
@@ -345,8 +452,31 @@
                 <a href="index.html#new-stars">NEW STARS</a>
                 <a href="index.html#trending">TRENDING</a>
             </div>
+            <button class="hamburger" onclick="toggleMenu()" aria-label="メニュー">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html#featured" onclick="closeMenu()">FEATURED</a>
+            <a href="index.html#todays-voice" onclick="closeMenu()">TODAY'S VOICE</a>
+            <a href="index.html#new-stars" onclick="closeMenu()">NEW STARS</a>
+            <a href="index.html#trending" onclick="closeMenu()">TRENDING</a>
+        </div>
     </header>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('mobileMenu');
+            var btn = document.querySelector('.hamburger');
+            menu.classList.toggle('open');
+            btn.classList.toggle('open');
+        }
+        function closeMenu() {
+            document.getElementById('mobileMenu').classList.remove('open');
+            document.querySelector('.hamburger').classList.remove('open');
+        }
+    </script>
     
     <main>
         <section id="featured" class="section-white">
@@ -408,7 +538,7 @@
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
             <div class="rank-title">Watame Ch. 角巻わため</div>
-            <div class="rank-stats">【歌枠】第１３２回！Valentine&#39;s わためぇ Night Fever!! Singing Stream🍫🎤【角巻わため/ホロライブ４期生】　再生 133.6K　いいね 10.8K</div>
+            <div class="rank-stats">【歌枠】第１３２回！Valentine&#39;s わためぇ Night Fever!! Singing Stream🍫🎤【角巻わため/ホロライブ４期生】　再生 133.9K　いいね 10.8K</div>
         </div>
     </a>
 
@@ -420,7 +550,7 @@
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
             <div class="rank-title">ラメリィ / Ramerry</div>
-            <div class="rank-stats">プロポーズなマインクラフト【内緒のピアス】【歌ってみた】【マイクラアニメ】【マインクラフト】　再生 108.6K　いいね 2.9K</div>
+            <div class="rank-stats">プロポーズなマインクラフト【内緒のピアス】【歌ってみた】【マイクラアニメ】【マインクラフト】　再生 119.0K　いいね 3.0K</div>
         </div>
     </a>
 
@@ -432,7 +562,7 @@
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
             <div class="rank-title">hololive English</div>
-            <div class="rank-stats">【Cover MV】Koi【hololive English -Myth-】　再生 59.7K　いいね 12.2K</div>
+            <div class="rank-stats">【Cover MV】Koi【hololive English -Myth-】　再生 61.4K　いいね 12.4K</div>
         </div>
     </a>
 
@@ -456,67 +586,67 @@
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
             <div class="rank-title">にゃるは</div>
-            <div class="rank-stats">【99％の人が解けないらしい】 #クイズ #歌ってみた #にゃるは　再生 41.0K　いいね 1.0K</div>
+            <div class="rank-stats">【99％の人が解けないらしい】 #クイズ #歌ってみた #にゃるは　再生 48.8K　いいね 1.2K</div>
+        </div>
+    </a>
+
+    <a href="https://www.youtube.com/channel/UC2xXx1m1jeL0W84_0jTg-Yw" target="_blank" rel="noopener noreferrer" class="rank-card">
+        <div class="rank-number">06</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/dQUpSGfxm_E/hqdefault.jpg" alt="銀城サイネ / Ginjo Saine">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">銀城サイネ / Ginjo Saine</div>
+            <div class="rank-stats">【生歌】愛して愛して愛して MIX前後比較 #歌ってみた #shorts　再生 23.0K　いいね 4.4K</div>
         </div>
     </a>
 
     <a href="https://www.youtube.com/channel/UCvzVB-EYuHFXHZrObB8a_Og" target="_blank" rel="noopener noreferrer" class="rank-card">
-        <div class="rank-number">06</div>
+        <div class="rank-number">07</div>
         <div class="rank-avatar">
             <img src="https://i.ytimg.com/vi/IsazEcayExQ/hqdefault.jpg" alt="矢車りね / Rine Yaguruma【にじさんじ】">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
             <div class="rank-title">矢車りね / Rine Yaguruma【にじさんじ】</div>
-            <div class="rank-stats">【歌枠】ラップ曲いっぱい歌枠！告知もあるよ～ん【にじさんじ/矢車りね】　再生 21.0K　いいね 2.1K</div>
+            <div class="rank-stats">【歌枠】ラップ曲いっぱい歌枠！告知もあるよ～ん【にじさんじ/矢車りね】　再生 22.7K　いいね 2.2K</div>
         </div>
     </a>
 
     <a href="https://www.youtube.com/channel/UCam_xf14FPFsRshFTj4wkHw" target="_blank" rel="noopener noreferrer" class="rank-card">
-        <div class="rank-number">07</div>
+        <div class="rank-number">08</div>
         <div class="rank-avatar">
             <img src="https://i.ytimg.com/vi/qfMRqe6hhxs/hqdefault.jpg" alt="白砂あやね / Shirasa Ayane【にじさんじ】">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
             <div class="rank-title">白砂あやね / Shirasa Ayane【にじさんじ】</div>
-            <div class="rank-stats">【収益化記念】初めての歌枠！収益化ありがとう🤍【白砂あやね / にじさんじ】　再生 16.9K　いいね 2.4K</div>
-        </div>
-    </a>
-
-    <a href="https://www.youtube.com/channel/UC5SSy3julTJHzmExQJjLUkw" target="_blank" rel="noopener noreferrer" class="rank-card">
-        <div class="rank-number">08</div>
-        <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/AKgCF5NBjDw/hqdefault.jpg" alt="あくび・でもんすぺーど / Akubi Demonspade ">
-        </div>
-        <div class="rank-info">
-            <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">あくび・でもんすぺーど / Akubi Demonspade </div>
-            <div class="rank-stats">【歌枠】チョコよりコメントくれ【#あくび・でもんすぺーど/#ミリプロ】　再生 12.3K　いいね 1.3K</div>
-        </div>
-    </a>
-
-    <a href="https://www.youtube.com/channel/UCLIpj4TmXviSTNE_U5WG_Ug" target="_blank" rel="noopener noreferrer" class="rank-card">
-        <div class="rank-number">09</div>
-        <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/8lff6q804W8/hqdefault.jpg" alt="Roa Ch. 海月雲ろあ">
-        </div>
-        <div class="rank-info">
-            <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">Roa Ch. 海月雲ろあ</div>
-            <div class="rank-stats">インドア系ならトラックメイカー / 歌ってみた【海月雲ろあ】#vtuber #shorts #cover #インドア系ならトラックメイカー　再生 10.8K　いいね 2.5K</div>
+            <div class="rank-stats">【収益化記念】初めての歌枠！収益化ありがとう🤍【白砂あやね / にじさんじ】　再生 18.7K　いいね 2.5K</div>
         </div>
     </a>
 
     <a href="https://www.youtube.com/channel/UCcYrL_GQe8X8K2ARhw_Syww" target="_blank" rel="noopener noreferrer" class="rank-card">
-        <div class="rank-number">10</div>
+        <div class="rank-number">09</div>
         <div class="rank-avatar">
             <img src="https://i.ytimg.com/vi/7u5Ceuntr4c/hqdefault.jpg" alt="皇れお / Sumeragi Reo【にじさんじ】">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
             <div class="rank-title">皇れお / Sumeragi Reo【にじさんじ】</div>
-            <div class="rank-stats">ロメオ / HoneyWorks 歌ってみた 【皇れお / 篠宮ゆの / にじさんじ】　再生 10.2K　いいね 6.0K</div>
+            <div class="rank-stats">ロメオ / HoneyWorks 歌ってみた 【皇れお / 篠宮ゆの / にじさんじ】　再生 16.4K　いいね 6.8K</div>
+        </div>
+    </a>
+
+    <a href="https://www.youtube.com/channel/UCLIpj4TmXviSTNE_U5WG_Ug" target="_blank" rel="noopener noreferrer" class="rank-card">
+        <div class="rank-number">10</div>
+        <div class="rank-avatar">
+            <img src="https://i.ytimg.com/vi/8lff6q804W8/hqdefault.jpg" alt="Roa Ch. 海月雲ろあ">
+        </div>
+        <div class="rank-info">
+            <div class="rank-channel">CHANNEL</div>
+            <div class="rank-title">Roa Ch. 海月雲ろあ</div>
+            <div class="rank-stats">インドア系ならトラックメイカー / 歌ってみた【海月雲ろあ】#vtuber #shorts #cover #インドア系ならトラックメイカー　再生 12.6K　いいね 2.8K</div>
         </div>
     </a>
             </div>
