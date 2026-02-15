@@ -70,6 +70,75 @@
             color: #ff4500;
         }
 
+        /* ハンバーガーメニューボタン（PC時は非表示） */
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            z-index: 1001;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: #333;
+            margin: 5px 0;
+            transition: all 0.3s;
+        }
+
+        /* ハンバーガー開いた時のアニメーション */
+        .hamburger.open span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .hamburger.open span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.open span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* モバイルメニュー（デフォルト非表示） */
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            background: rgba(255, 255, 255, 0.98);
+            border-top: 1px solid #ddd;
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+
+        .mobile-menu.open {
+            max-height: 300px;
+            padding: 20px 40px;
+        }
+
+        .mobile-menu a {
+            display: block;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: #333;
+            text-decoration: none;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            transition: color 0.3s;
+        }
+
+        .mobile-menu a:last-child {
+            border-bottom: none;
+        }
+
+        .mobile-menu a:hover {
+            color: #ff4500;
+        }
+
         footer {
             background: #fff;
             padding: 60px 40px;
@@ -92,8 +161,29 @@
         }
 
         @media (max-width: 768px) {
+            nav {
+                padding: 15px 20px;
+            }
+
+            .logo {
+                font-size: 13px;
+                letter-spacing: 4px;
+            }
+
             .nav-links {
                 display: none;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .mobile-menu {
+                display: flex;
+            }
+
+            footer {
+                padding: 40px 20px;
             }
         }
     </style>
@@ -217,6 +307,10 @@
         }
 
         @media (max-width: 768px) {
+            .page-container {
+                padding: 40px 20px;
+            }
+
             .page-title {
                 font-size: 40px;
                 letter-spacing: 12px;
@@ -240,8 +334,31 @@
                 <a href="index.html#new-stars">NEW STARS</a>
                 <a href="index.html#trending">TRENDING</a>
             </div>
+            <button class="hamburger" onclick="toggleMenu()" aria-label="メニュー">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html#featured" onclick="closeMenu()">FEATURED</a>
+            <a href="index.html#todays-voice" onclick="closeMenu()">TODAY'S VOICE</a>
+            <a href="index.html#new-stars" onclick="closeMenu()">NEW STARS</a>
+            <a href="index.html#trending" onclick="closeMenu()">TRENDING</a>
+        </div>
     </header>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('mobileMenu');
+            var btn = document.querySelector('.hamburger');
+            menu.classList.toggle('open');
+            btn.classList.toggle('open');
+        }
+        function closeMenu() {
+            document.getElementById('mobileMenu').classList.remove('open');
+            document.querySelector('.hamburger').classList.remove('open');
+        }
+    </script>
     
     <main>
         <div class="page-container">
