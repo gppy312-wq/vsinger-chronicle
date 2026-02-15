@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-15T12:42:30.758Z",
+  "lastUpdate": "2026-02-15T12:55:32.523Z",
   "articles": [
     {
       "date": "2026-02-14T15:00:00.000Z",
@@ -29,21 +29,6 @@
       "growth": 0,
       "fileName": "2026-02-15-rain@沖縄方言で歌ってみた.html",
       "thumbnailUrl": "https://i.ytimg.com/vi/ClCsTRIm2N8/maxresdefault.jpg",
-      "channelThumbnailUrl": ""
-    },
-    {
-      "date": "2026-02-14T15:00:00.000Z",
-      "title": "あにま、登録者5,710人の歌唱力で注目",
-      "channelName": "あにまの歌ってみたチャンネル",
-      "category": "DATA ANALYSIS",
-      "type": "editorial",
-      "videoId": "SM8HT6V_7as",
-      "channelId": "UCbH8JBSta8zxso-Y3ttruHQ",
-      "subscribers": 5710,
-      "views": 1092663,
-      "growth": 0,
-      "fileName": "2026-02-15-あにまの歌ってみたチャンネル.html",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SM8HT6V_7as/maxresdefault.jpg",
       "channelThumbnailUrl": ""
     },
     {
@@ -190,7 +175,7 @@
         "videoId": "7wQKhCC4fHo",
         "thumbnailUrl": "https://i.ytimg.com/vi/7wQKhCC4fHo/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【歌枠】第１３２回！Valentine's わためぇ Night Fever!! Singing Stream🍫🎤【角巻わため/ホロライブ４期生】　再生 134.0K　いいね 10.8K"
+        "stats": "【歌枠】第１３２回！Valentine's わためぇ Night Fever!! Singing Stream🍫🎤【角巻わため/ホロライブ４期生】　再生 134.1K　いいね 10.8K"
       },
       {
         "channelId": "UCaUyiKbp35G7QcAH4GeVauA",
@@ -198,15 +183,7 @@
         "videoId": "Qp-AoAGnkyQ",
         "thumbnailUrl": "https://i.ytimg.com/vi/Qp-AoAGnkyQ/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "プロポーズなマインクラフト【内緒のピアス】【歌ってみた】【マイクラアニメ】【マインクラフト】　再生 125.6K　いいね 3.1K"
-      },
-      {
-        "channelId": "UCotXwY6s8pWmuWd_snKYjhg",
-        "channelName": "hololive English",
-        "videoId": "1KmwMoaRZ28",
-        "thumbnailUrl": "https://i.ytimg.com/vi/1KmwMoaRZ28/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【Cover MV】Koi【hololive English -Myth-】　再生 62.4K　いいね 12.5K"
+        "stats": "プロポーズなマインクラフト【内緒のピアス】【歌ってみた】【マイクラアニメ】【マインクラフト】　再生 130.5K　いいね 3.2K"
       },
       {
         "channelId": "UC-bZHxqfAgVlr_plHf_mjwg",
@@ -214,7 +191,15 @@
         "videoId": "NPb7sZCnqYQ",
         "thumbnailUrl": "https://i.ytimg.com/vi/NPb7sZCnqYQ/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【99％の人が解けないらしい】 #クイズ #歌ってみた #にゃるは　再生 57.2K　いいね 1.3K"
+        "stats": "【99％の人が解けないらしい】 #クイズ #歌ってみた #にゃるは　再生 64.9K　いいね 1.3K"
+      },
+      {
+        "channelId": "UCotXwY6s8pWmuWd_snKYjhg",
+        "channelName": "hololive English",
+        "videoId": "1KmwMoaRZ28",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1KmwMoaRZ28/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【Cover MV】Koi【hololive English -Myth-】　再生 63.2K　いいね 12.6K"
       },
       {
         "channelId": "UC6h0UzfMHL7D7DSaSzT8LAg",
@@ -225,20 +210,20 @@
         "stats": "52歳による、土曜夜の歌🏧【歌枠】　再生 49.3K　いいね 195"
       },
       {
-        "channelId": "UCvzVB-EYuHFXHZrObB8a_Og",
-        "channelName": "矢車りね / Rine Yaguruma【にじさんじ】",
-        "videoId": "IsazEcayExQ",
-        "thumbnailUrl": "https://i.ytimg.com/vi/IsazEcayExQ/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【歌枠】ラップ曲いっぱい歌枠！告知もあるよ～ん【にじさんじ/矢車りね】　再生 23.4K　いいね 2.3K"
-      },
-      {
         "channelId": "UCam_xf14FPFsRshFTj4wkHw",
         "channelName": "白砂あやね / Shirasa Ayane【にじさんじ】",
         "videoId": "qfMRqe6hhxs",
         "thumbnailUrl": "https://i.ytimg.com/vi/qfMRqe6hhxs/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【収益化記念】初めての歌枠！収益化ありがとう🤍【白砂あやね / にじさんじ】　再生 21.9K　いいね 2.6K"
+        "stats": "【収益化記念】初めての歌枠！収益化ありがとう🤍【白砂あやね / にじさんじ】　再生 23.9K　いいね 2.6K"
+      },
+      {
+        "channelId": "UCvzVB-EYuHFXHZrObB8a_Og",
+        "channelName": "矢車りね / Rine Yaguruma【にじさんじ】",
+        "videoId": "IsazEcayExQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/IsazEcayExQ/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【歌枠】ラップ曲いっぱい歌枠！告知もあるよ～ん【にじさんじ/矢車りね】　再生 23.8K　いいね 2.3K"
       },
       {
         "channelId": "UCtQwleVyBMjBGNuUQ7a-KYg",
@@ -246,7 +231,7 @@
         "videoId": "FX2Rn_6WPsg",
         "thumbnailUrl": "https://i.ytimg.com/vi/FX2Rn_6WPsg/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "「バゥムクゥヘン・エンドロゥル」歌ってみた【雨夜リズ/ミリプロ】　再生 20.6K　いいね 3.2K"
+        "stats": "「バゥムクゥヘン・エンドロゥル」歌ってみた【雨夜リズ/ミリプロ】　再生 22.7K　いいね 3.3K"
       },
       {
         "channelId": "UCcYrL_GQe8X8K2ARhw_Syww",
@@ -254,7 +239,7 @@
         "videoId": "7u5Ceuntr4c",
         "thumbnailUrl": "https://i.ytimg.com/vi/7u5Ceuntr4c/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "ロメオ / HoneyWorks 歌ってみた 【皇れお / 篠宮ゆの / にじさんじ】　再生 19.0K　いいね 7.3K"
+        "stats": "ロメオ / HoneyWorks 歌ってみた 【皇れお / 篠宮ゆの / にじさんじ】　再生 21.9K　いいね 7.5K"
       },
       {
         "channelId": "UCLIpj4TmXviSTNE_U5WG_Ug",
@@ -262,7 +247,7 @@
         "videoId": "8lff6q804W8",
         "thumbnailUrl": "https://i.ytimg.com/vi/8lff6q804W8/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "インドア系ならトラックメイカー / 歌ってみた【海月雲ろあ】#vtuber #shorts #cover #インドア系ならトラックメイカー　再生 14.3K　いいね 3.1K"
+        "stats": "インドア系ならトラックメイカー / 歌ってみた【海月雲ろあ】#vtuber #shorts #cover #インドア系ならトラックメイカー　再生 15.8K　いいね 3.2K"
       }
     ],
     "newStars": [],
