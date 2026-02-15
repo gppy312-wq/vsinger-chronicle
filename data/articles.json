@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-15T13:24:31.907Z",
+  "lastUpdate": "2026-02-15T13:33:10.384Z",
   "articles": [
     {
       "date": "2026-02-14T15:00:00.000Z",
@@ -235,7 +235,7 @@
         "videoId": "yqqCDJxdGpU",
         "thumbnailUrl": "https://i.ytimg.com/vi/yqqCDJxdGpU/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "星間飛行　～マクロスF～  #shorts #vtuber #歌ってみた　再生 23.9K　いいね 1.4K"
+        "stats": "星間飛行　～マクロスF～  #shorts #vtuber #歌ってみた　再生 26.6K　いいね 1.4K"
       },
       {
         "channelId": "UCLIpj4TmXviSTNE_U5WG_Ug",
@@ -243,7 +243,15 @@
         "videoId": "8lff6q804W8",
         "thumbnailUrl": "https://i.ytimg.com/vi/8lff6q804W8/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "インドア系ならトラックメイカー / 歌ってみた【海月雲ろあ】#vtuber #shorts #cover #インドア系ならトラックメイカー　再生 17.7K　いいね 3.4K"
+        "stats": "インドア系ならトラックメイカー / 歌ってみた【海月雲ろあ】#vtuber #shorts #cover #インドア系ならトラックメイカー　再生 18.2K　いいね 3.5K"
+      },
+      {
+        "channelId": "UCsSUATrnXqj4lI71ABdJ7_w",
+        "channelName": "ブラフラ【公式】 - BLACK FLAP -",
+        "videoId": "fepwxI6bAUw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/fepwxI6bAUw/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【歌ってみた】ビターチョコデコレーション / syudou【ブラフラ】#shorts　再生 11.3K　いいね 3.2K"
       },
       {
         "channelId": "UCFkHpBGMeNSQW-j9-F0nxnQ",
@@ -286,14 +294,6 @@
         "stats": "リスナーに歌ってみたでドッキリ仕掛けてみた！ #切り抜き  #shorts #vtuber  #しじみもち　再生 3.4K　いいね 110"
       },
       {
-        "channelId": "UCjoGLVLapRciX38bwgDtttw",
-        "channelName": "羽緒",
-        "videoId": "3C0R-y63cKI",
-        "thumbnailUrl": "https://i.ytimg.com/vi/3C0R-y63cKI/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【 歌枠 / #karaoke 】重大告知のある歌枠🦉【羽緒 / RK Music】#羽緒集魂中 #vtuber #vsinger　再生 3.3K　いいね 472"
-      },
-      {
         "channelId": "UCg4x4QmjPx0I1HNQp9h1xvg",
         "channelName": "Ren.ch戌月れん",
         "videoId": "VFqdkPo8VQc",
@@ -302,12 +302,12 @@
         "stats": "【#歌枠】見つけて！【Vtuber／戌月れん】　再生 3.3K　いいね 562"
       },
       {
-        "channelId": "UCDR7Rvoqmq50bb2Pu5kzWBg",
-        "channelName": "汐音かなう / Kanau🐠🐚",
-        "videoId": "xFyiL7MWeX8",
-        "thumbnailUrl": "https://i.ytimg.com/vi/xFyiL7MWeX8/hqdefault.jpg",
+        "channelId": "UCjoGLVLapRciX38bwgDtttw",
+        "channelName": "羽緒",
+        "videoId": "3C0R-y63cKI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/3C0R-y63cKI/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "愛言葉V/DECO*27 様 #愛言葉V #歌ってみた #アカペラ #歌い手 #cover #vsinger　再生 2.9K　いいね 62"
+        "stats": "【 歌枠 / #karaoke 】重大告知のある歌枠🦉【羽緒 / RK Music】#羽緒集魂中 #vtuber #vsinger　再生 3.3K　いいね 472"
       }
     ],
     "newStars": [],
