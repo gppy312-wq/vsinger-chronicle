@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-15T12:55:32.523Z",
+  "lastUpdate": "2026-02-15T13:08:44.299Z",
   "articles": [
     {
       "date": "2026-02-14T15:00:00.000Z",
@@ -44,6 +44,36 @@
       "growth": 0,
       "fileName": "2026-02-15-rain@沖縄方言で歌ってみた.html",
       "thumbnailUrl": "https://i.ytimg.com/vi/ClCsTRIm2N8/maxresdefault.jpg",
+      "channelThumbnailUrl": ""
+    },
+    {
+      "date": "2026-02-14T15:00:00.000Z",
+      "title": "TSUMIKO、低音ボイスで差別化を図るVsinger",
+      "channelName": "TSUMIKO (人生つみこ) -Vsinger-",
+      "category": "DATA ANALYSIS",
+      "type": "editorial",
+      "videoId": "D4DLWUgbQvA",
+      "channelId": "UCXcRVQCR6jHUpFaYjuuthAg",
+      "subscribers": 8290,
+      "views": 687796,
+      "growth": 0,
+      "fileName": "2026-02-15-TSUMIKO-(人生つみこ)-Vsinger-.html",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D4DLWUgbQvA/maxresdefault.jpg",
+      "channelThumbnailUrl": ""
+    },
+    {
+      "date": "2026-02-14T15:00:00.000Z",
+      "title": "理芽-RIM-：登録者39万人達成の実績",
+      "channelName": "理芽 -RIM-",
+      "category": "DATA ANALYSIS",
+      "type": "editorial",
+      "videoId": "YeUL_sDjXVc",
+      "channelId": "UCfBkUgaJ6eqYA9_TX2cmq9A",
+      "subscribers": 394000,
+      "views": 169706435,
+      "growth": 0,
+      "fileName": "2026-02-15-理芽-RIM-.html",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YeUL_sDjXVc/maxresdefault.jpg",
       "channelThumbnailUrl": ""
     },
     {
@@ -170,76 +200,12 @@
   "rankings": {
     "todaysVoice": [
       {
-        "channelId": "UCqm3BQLlJfvkTsX_hvm0UmA",
-        "channelName": "Watame Ch. 角巻わため",
-        "videoId": "7wQKhCC4fHo",
-        "thumbnailUrl": "https://i.ytimg.com/vi/7wQKhCC4fHo/hqdefault.jpg",
+        "channelId": "UCmkA3ZlbadJFCfR7OnQWM0A",
+        "channelName": "Whale Taylor Ch.【ホエール・テイラー】",
+        "videoId": "yqqCDJxdGpU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/yqqCDJxdGpU/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【歌枠】第１３２回！Valentine's わためぇ Night Fever!! Singing Stream🍫🎤【角巻わため/ホロライブ４期生】　再生 134.1K　いいね 10.8K"
-      },
-      {
-        "channelId": "UCaUyiKbp35G7QcAH4GeVauA",
-        "channelName": "ラメリィ / Ramerry",
-        "videoId": "Qp-AoAGnkyQ",
-        "thumbnailUrl": "https://i.ytimg.com/vi/Qp-AoAGnkyQ/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "プロポーズなマインクラフト【内緒のピアス】【歌ってみた】【マイクラアニメ】【マインクラフト】　再生 130.5K　いいね 3.2K"
-      },
-      {
-        "channelId": "UC-bZHxqfAgVlr_plHf_mjwg",
-        "channelName": "にゃるは",
-        "videoId": "NPb7sZCnqYQ",
-        "thumbnailUrl": "https://i.ytimg.com/vi/NPb7sZCnqYQ/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【99％の人が解けないらしい】 #クイズ #歌ってみた #にゃるは　再生 64.9K　いいね 1.3K"
-      },
-      {
-        "channelId": "UCotXwY6s8pWmuWd_snKYjhg",
-        "channelName": "hololive English",
-        "videoId": "1KmwMoaRZ28",
-        "thumbnailUrl": "https://i.ytimg.com/vi/1KmwMoaRZ28/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【Cover MV】Koi【hololive English -Myth-】　再生 63.2K　いいね 12.6K"
-      },
-      {
-        "channelId": "UC6h0UzfMHL7D7DSaSzT8LAg",
-        "channelName": "最強くんのゲーム",
-        "videoId": "OHzsgVU2PI0",
-        "thumbnailUrl": "https://i.ytimg.com/vi/OHzsgVU2PI0/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "52歳による、土曜夜の歌🏧【歌枠】　再生 49.3K　いいね 195"
-      },
-      {
-        "channelId": "UCam_xf14FPFsRshFTj4wkHw",
-        "channelName": "白砂あやね / Shirasa Ayane【にじさんじ】",
-        "videoId": "qfMRqe6hhxs",
-        "thumbnailUrl": "https://i.ytimg.com/vi/qfMRqe6hhxs/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【収益化記念】初めての歌枠！収益化ありがとう🤍【白砂あやね / にじさんじ】　再生 23.9K　いいね 2.6K"
-      },
-      {
-        "channelId": "UCvzVB-EYuHFXHZrObB8a_Og",
-        "channelName": "矢車りね / Rine Yaguruma【にじさんじ】",
-        "videoId": "IsazEcayExQ",
-        "thumbnailUrl": "https://i.ytimg.com/vi/IsazEcayExQ/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【歌枠】ラップ曲いっぱい歌枠！告知もあるよ～ん【にじさんじ/矢車りね】　再生 23.8K　いいね 2.3K"
-      },
-      {
-        "channelId": "UCtQwleVyBMjBGNuUQ7a-KYg",
-        "channelName": "雨夜リズ / Amayo Liz",
-        "videoId": "FX2Rn_6WPsg",
-        "thumbnailUrl": "https://i.ytimg.com/vi/FX2Rn_6WPsg/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "「バゥムクゥヘン・エンドロゥル」歌ってみた【雨夜リズ/ミリプロ】　再生 22.7K　いいね 3.3K"
-      },
-      {
-        "channelId": "UCcYrL_GQe8X8K2ARhw_Syww",
-        "channelName": "皇れお / Sumeragi Reo【にじさんじ】",
-        "videoId": "7u5Ceuntr4c",
-        "thumbnailUrl": "https://i.ytimg.com/vi/7u5Ceuntr4c/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "ロメオ / HoneyWorks 歌ってみた 【皇れお / 篠宮ゆの / にじさんじ】　再生 21.9K　いいね 7.5K"
+        "stats": "星間飛行　～マクロスF～  #shorts #vtuber #歌ってみた　再生 20.9K　いいね 1.4K"
       },
       {
         "channelId": "UCLIpj4TmXviSTNE_U5WG_Ug",
@@ -247,7 +213,71 @@
         "videoId": "8lff6q804W8",
         "thumbnailUrl": "https://i.ytimg.com/vi/8lff6q804W8/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "インドア系ならトラックメイカー / 歌ってみた【海月雲ろあ】#vtuber #shorts #cover #インドア系ならトラックメイカー　再生 15.8K　いいね 3.2K"
+        "stats": "インドア系ならトラックメイカー / 歌ってみた【海月雲ろあ】#vtuber #shorts #cover #インドア系ならトラックメイカー　再生 17.0K　いいね 3.3K"
+      },
+      {
+        "channelId": "UCFkHpBGMeNSQW-j9-F0nxnQ",
+        "channelName": "桜鳥ミーナ / Audrey Mina",
+        "videoId": "2RduPLR-2fQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/2RduPLR-2fQ/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【ゲリラ歌枠】見れたらラッキー✨バレンタインなので❤アイドル曲・HoneyWorks・アニソン歌います🌸Singing Stream #歌枠【作業用BGM/KARAOKE/VEE/VTuber】歌回　再生 7.2K　いいね 711"
+      },
+      {
+        "channelId": "UCcPRh2IAWN4KVlcYN_-Vk1Q",
+        "channelName": " 白波瀬ソル / Sol Shirahase",
+        "videoId": "EukfeVjxlgg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/EukfeVjxlgg/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "歌枠｜眠りにおいで？アニソンボカロJPOP♡ଓ初見さんも大歓迎｜- singing stream -【 白波瀬ソル / YUMENOS】#shorts  　#vtuber  #vsinger　再生 5.9K　いいね 203"
+      },
+      {
+        "channelId": "UCqDN60QQx3GGmfagx1eyIEg",
+        "channelName": "彷徨 鈴【Samayoi Suzu】",
+        "videoId": "yvMn6DcYV48",
+        "thumbnailUrl": "https://i.ytimg.com/vi/yvMn6DcYV48/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【#歌枠 * song】土曜の深夜歌枠～🎤✨チョコちょーだい🍫！【ぱわーぼいすVtuber／彷徨鈴】　再生 4.4K　いいね 621"
+      },
+      {
+        "channelId": "UCTd5cE0klCW_FlSMLiPptaQ",
+        "channelName": "空姫マリン / Sorahime Marin",
+        "videoId": "AeI2dI7Gzzg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/AeI2dI7Gzzg/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【歌枠】バレンタインソング🍫💚 #初見さん大歓迎【空姫マリン/個人Vtuber/Vsinger】　再生 3.6K　いいね 167"
+      },
+      {
+        "channelId": "UCYekdxgGhodw0kTIl8NLz4A",
+        "channelName": "しじみもち / Shijimimochi",
+        "videoId": "OATZV0O6Yaw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/OATZV0O6Yaw/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "リスナーに歌ってみたでドッキリ仕掛けてみた！ #切り抜き  #shorts #vtuber  #しじみもち　再生 3.3K　いいね 106"
+      },
+      {
+        "channelId": "UCjoGLVLapRciX38bwgDtttw",
+        "channelName": "羽緒",
+        "videoId": "3C0R-y63cKI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/3C0R-y63cKI/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【 歌枠 / #karaoke 】重大告知のある歌枠🦉【羽緒 / RK Music】#羽緒集魂中 #vtuber #vsinger　再生 3.3K　いいね 472"
+      },
+      {
+        "channelId": "UCg4x4QmjPx0I1HNQp9h1xvg",
+        "channelName": "Ren.ch戌月れん",
+        "videoId": "VFqdkPo8VQc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/VFqdkPo8VQc/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【#歌枠】見つけて！【Vtuber／戌月れん】　再生 3.3K　いいね 560"
+      },
+      {
+        "channelId": "UCDR7Rvoqmq50bb2Pu5kzWBg",
+        "channelName": "汐音かなう / Kanau🐠🐚",
+        "videoId": "xFyiL7MWeX8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/xFyiL7MWeX8/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "愛言葉V/DECO*27 様 #愛言葉V #歌ってみた #アカペラ #歌い手 #cover #vsinger　再生 2.9K　いいね 62"
       }
     ],
     "newStars": [],
