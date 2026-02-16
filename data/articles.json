@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-15T14:20:18.599Z",
+  "lastUpdate": "2026-02-16T15:23:07.681Z",
   "articles": [
     {
       "date": "2026-02-14T15:00:00.000Z",
@@ -228,16 +228,133 @@
     }
   ],
   "rankings": {
-    "todaysVoice": [],
-    "newStars": [],
+    "todaysVoice": [
+      {
+        "channelId": "UC7A7bGRVdIwo93nqnA3x-OQ",
+        "channelName": "苺咲べりぃ / Maisaki Berry",
+        "videoId": "IVQA0vzQSkE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/IVQA0vzQSkE/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【 歌枠 】初見さんもいらっしゃい！おうち3Dフルトラ歌枠！│ Singing / karaoke  /  歌回【 苺咲べりぃ / Vtuber 】　再生 2.2K　いいね 602"
+      },
+      {
+        "channelId": "UC1nqXaKzG4hd1SRFVra16gw",
+        "channelName": "焔魔るり CH. / Ruri Enma",
+        "videoId": "l3y-1RuxcYQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/l3y-1RuxcYQ/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "《 お知らせ歌枠 / KARAOKE 》うれしいずんちゃちゃ《 焔魔るり/RK Musicライブユニオン 》　再生 1.0K　いいね 320"
+      },
+      {
+        "channelId": "UClHap4tvcYZnyiqgAyEs0BQ",
+        "channelName": "ふぇりしあ / Felicia Ch",
+        "videoId": "Fojp5ZVSpGE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Fojp5ZVSpGE/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【歌枠/Karaoke】可愛いラブソング多め🎤 Singing stream 【個人Vtuber/#ふぇりしあ】　再生 966　いいね 293"
+      },
+      {
+        "channelId": "UC9wm01aQvOOoXvFPGj7YRTA",
+        "channelName": "kawaiiMETALxxx",
+        "videoId": "EDaXyu5dSZU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/EDaXyu5dSZU/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "Rock Vsingerが「抜錨/ナナホシ管弦楽団」（Heave Anchor）を劇熱に歌ってみた！【kawaiiMETALxxx】 #歌ってみた #cover #vsinger #新人vsiner　再生 743　いいね 6"
+      },
+      {
+        "channelId": "UCithOpT8xNXHDWKxUuZar0A",
+        "channelName": "ルワ♢ruwa",
+        "videoId": "pvPrhJW6cbI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/pvPrhJW6cbI/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【歌枠/Karaoke】同接50人目指したい🫶🏻💕アニソン歌枠🎶歌声ギャップあり💘【#ルワストリーム/正統派カワボ新人VSinger #ルワ】　再生 305　いいね 90"
+      },
+      {
+        "channelId": "UCL7RFen2JJ4sPygHkqJdIKA",
+        "channelName": "蓬莱エマ",
+        "videoId": "5RXfOLSZtZo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/5RXfOLSZtZo/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【歌ってみた】ダーリンダンス／かいりきベア【蓬莱エマ】 #shorts #個人勢vtuber #切り抜き　再生 249　いいね 0"
+      },
+      {
+        "channelId": "UCjDJuhdx8Q7lTmbLoug5zWA",
+        "channelName": "田中すじゅ",
+        "videoId": "dWj8KLh9VP4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/dWj8KLh9VP4/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【ミュート大歓迎 #歌枠 】なんか最近ちょっとあったかくない？歌枠 #singing #vtuber #ボーカロイド #26粒目　再生 55　いいね 19"
+      },
+      {
+        "channelId": "UCJmBgJjoU8jLBo7CQ8x075w",
+        "channelName": "桜来はなも　Sakura Hanamo",
+        "videoId": "i2Sf9tWciCo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/i2Sf9tWciCo/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【歌枠：KARAOKE】ボカロアニソンラブライブ多め！【桜来はなも🌸新人Vtuber】　再生 54　いいね 15"
+      },
+      {
+        "channelId": "UC0fnraujx3HS32Liw2wuNDg",
+        "channelName": "Chiyokori Mint Ch. 千代樵 みんと Ch.",
+        "videoId": "Lg_ZfLyBIpU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Lg_ZfLyBIpU/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【#1ヶ月間音痴歌枠】本当に本当に本当に音痴歌枠だ(9/14回)【カラオケJOYSOUND for STREAMER】　再生 35　いいね 10"
+      },
+      {
+        "channelId": "UC-EjgncbtMlxYj00KKhDKMA",
+        "channelName": "Ovi奧薇_紅髮精靈",
+        "videoId": "1KQ3mnmDmmU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1KQ3mnmDmmU/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "life goes on #edsheeran #cover #翻唱 #台v #vtuber  #barbie #歌ってみた　再生 18　いいね 0"
+      }
+    ],
+    "newStars": [
+      {
+        "channelId": "UCXcRVQCR6jHUpFaYjuuthAg",
+        "channelName": "TSUMIKO (人生つみこ) -Vsinger-",
+        "thumbnailUrl": "https://yt3.ggpht.com/q4fS2xSPq-fOTGCMo7L7RW6H2z08fTQQgofTxD_qrIm9YtabJDEvUqOm-VTplt2qkvWXS5K_PA=s800-c-k-c0x00ffffff-no-rj",
+        "label": "活動2.9年",
+        "stats": "登録 8.3K　再生 688.3K　動画 65本"
+      },
+      {
+        "channelId": "UCOZvymJrEDhlINeeTJ1SGjQ",
+        "channelName": "炭酸水🥤｡oO Vsinger",
+        "thumbnailUrl": "https://yt3.ggpht.com/ip0Yk3ajUZX-VBB2pt0bG4k-rlyBo-Q1yf5BjBz3dFJ-Uk569QWTwT6PldJkKkVxfL8ILbvp4g=s800-c-k-c0x00ffffff-no-rj",
+        "label": "活動5.4年",
+        "stats": "登録 5.7K　再生 349.5K　動画 338本"
+      },
+      {
+        "channelId": "UC2YWl46WAMLjcXfjAXxTZUQ",
+        "channelName": "響歌シノ-Kyoka Shino-",
+        "thumbnailUrl": "https://yt3.ggpht.com/mF_tDn253nqZ9Fm3QRKLclx5E_4YI4Ip0dM7ttRRj7gpfcCbQtcitH448_ScXa9XSOoN8pPOOg=s800-c-k-c0x00ffffff-no-rj",
+        "label": "活動5.3年",
+        "stats": "登録 4.3K　再生 294.3K　動画 263本"
+      },
+      {
+        "channelId": "UCmPtG0BNTKHYxxZ85szCqyg",
+        "channelName": "Miu Farfalle / ミュウ ファルファレ ch. 〖 Vsinger 〗",
+        "thumbnailUrl": "https://yt3.ggpht.com/S3EjPoITSFRjCsSj4f2C1NwJRHs0A55_Fj9hXHq9G-O33d4YjArV2Vu8pelfUlMrPFNJkMmN9A=s800-c-k-c0x00ffffff-no-rj",
+        "label": "活動4.8年",
+        "stats": "登録 4.3K　再生 1.9M　動画 500本"
+      },
+      {
+        "channelId": "UC2QWKdA2qTb2W6JWaTAN2GA",
+        "channelName": "ちょき【Vsinger】",
+        "thumbnailUrl": "https://yt3.ggpht.com/LCJMcuylkU48kE0PwJkt-bUaM0fzG9HIK3e2R_3Ek5aWvIFHELnmLW50CwX6_22mNN3ko6ED=s800-c-k-c0x00ffffff-no-rj",
+        "label": "活動3.8年",
+        "stats": "登録 3.4K　再生 559.7K　動画 844本"
+      }
+    ],
     "trending": [
       {
-        "channelId": "UCTIE7LM5X15NVugV7Krp9Hw",
-        "channelName": "夢追翔のJUKE BOX",
-        "videoId": "vI4fMLJRMMA",
-        "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nC1vZQji-GXgqRtVNm5JtAvoHeVROcemv0BfmNDvECiA=s800-c-k-c0x00ffffff-no-rj",
+        "channelId": "UCBLGjbYv6-xxju1i44RjnnA",
+        "channelName": "明透 -ᴀsᴜ-",
+        "videoId": "s1AUOPP_eKk",
+        "thumbnailUrl": "https://yt3.ggpht.com/9ZnqCjD_uxY7HoUblghpGtZfScGRBr7lSuND2Vb7gKpjU3C7P-DINZJ5CAOhsppOyOklN6fRRA=s800-c-k-c0x00ffffff-no-rj",
         "label": "最新動画",
-        "stats": "お気に召すまま / Eve (Covered by 夢追翔)【歌ってみた/にじさんじ】　再生 14.7K"
+        "stats": "【歌ってみた】ラヴィ - すりぃ covered by 明透×琶舞　再生 16.7K"
       },
       {
         "channelId": "UC7Gow-kNHq21oejSIDg9PAg",
@@ -245,31 +362,31 @@
         "videoId": "1fkSiK-SyiI",
         "thumbnailUrl": "https://yt3.ggpht.com/RV_UQS0O7fFzeNqFh0hyIeJSFzaLsfblbuk6nsBPGlHORqhVNsvWJYRj6FZ8dz_9cn9sN5wv0g=s800-c-k-c0x00ffffff-no-rj",
         "label": "最新動画",
-        "stats": "幸祜 -KOKO- 「かくれんぼ」歌ってみた　再生 14.7K"
+        "stats": "幸祜 -KOKO- 「かくれんぼ」歌ってみた　再生 15.0K"
       },
       {
-        "channelId": "UCBLGjbYv6-xxju1i44RjnnA",
-        "channelName": "明透 -ᴀsᴜ-",
-        "videoId": "s1AUOPP_eKk",
-        "thumbnailUrl": "https://yt3.ggpht.com/9ZnqCjD_uxY7HoUblghpGtZfScGRBr7lSuND2Vb7gKpjU3C7P-DINZJ5CAOhsppOyOklN6fRRA=s800-c-k-c0x00ffffff-no-rj",
+        "channelId": "UCHTnX0CSX_KObo5I9WuZ64g",
+        "channelName": "YuNi - official channel -",
+        "videoId": "p5D8r_LDtmA",
+        "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_m_KUysAaTVb7g_hYb4T9AEqw1WBGY6vSj7Bg18WNzZVik=s800-c-k-c0x00ffffff-no-rj",
         "label": "最新動画",
-        "stats": "【歌ってみた】ラヴィ - すりぃ covered by 明透×琶舞　再生 4.2K"
+        "stats": "甲賀忍法帖/ 陰陽座【Covered by YuNi】 #歌ってみた #yuni　再生 13.7K"
       },
       {
-        "channelId": "UCsiKFVHkQSMlSe0vaCG0anw",
-        "channelName": "MaiR",
-        "videoId": "ZxzvA51PJOY",
-        "thumbnailUrl": "https://yt3.ggpht.com/R-akEYCVht79guQxCjEOFiIatAYJvchVy_uI81Ll802w0wbbKphV4YW71VXEaJumFYqO5U_T=s800-c-k-c0x00ffffff-no-rj",
+        "channelId": "UCdXDcYUvwNweIDpPsWgDHyw",
+        "channelName": "セレーネ•クローリスVSinger",
+        "videoId": "5hR-9T76XTk",
+        "thumbnailUrl": "https://yt3.ggpht.com/5Fm_0qZdiE9n89m57WOjv6Bcmg_woHDlirZFBVrjuwn5u6OBMjF6HrVv1R6WKXJZcVfBhyTqoA=s800-c-k-c0x00ffffff-no-rj",
         "label": "最新動画",
-        "stats": "【 歌枠 】バンドをこよなく愛する。#2月7日ライブを満員にする夢がある【 MaiR／ザスター 】　再生 2.1K"
+        "stats": "【歌みた】すき/DREAMS COME TRUE『cover: セレーネ・クローリスVsinger』　再生 12.7K"
       },
       {
-        "channelId": "UC5ejv9WHcscXA96nc13qhmw",
-        "channelName": "ばしぽちゃんねる",
-        "videoId": "lrHVEYkkKwc",
-        "thumbnailUrl": "https://yt3.ggpht.com/CKphvN_pKB6nbPyhniEzNownHEXEff9a92tAYeGz0QnurSf6WrdMTYAXuVGL6XjOet20FI0DV_E=s800-c-k-c0x00ffffff-no-rj",
+        "channelId": "UCXcRVQCR6jHUpFaYjuuthAg",
+        "channelName": "TSUMIKO (人生つみこ) -Vsinger-",
+        "videoId": "D4DLWUgbQvA",
+        "thumbnailUrl": "https://yt3.ggpht.com/q4fS2xSPq-fOTGCMo7L7RW6H2z08fTQQgofTxD_qrIm9YtabJDEvUqOm-VTplt2qkvWXS5K_PA=s800-c-k-c0x00ffffff-no-rj",
         "label": "最新動画",
-        "stats": "とんでもないカップリングで一攫千金を狙う同人作家ばしぽ　#ばしぽ #切り抜き #腐男子　再生 1.1K"
+        "stats": "低音声の女の KING 聴いてほしい🫶 #歌ってみた #vtuber #人生つみこ　再生 8.5K"
       }
     ]
   }
