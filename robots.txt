@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vsinger-chronicle.com/sitemap.xml
+
+# クローラーの負荷軽減
+Crawl-delay: 1
+
+# 不要なファイルをクロール対象外に
+Disallow: /data/
