@@ -422,41 +422,99 @@
             }
         }
 
+        /* ★ スマホ最適化：記事を一画面に多く表示 */
         @media (max-width: 768px) {
+            main {
+                padding-top: 60px;
+            }
+
             section {
-                padding: 60px 20px;
+                padding: 30px 15px;
             }
 
             .section-header {
-                margin-bottom: 40px;
+                margin-bottom: 20px;
             }
 
             .section-title {
-                font-size: 40px;
-                letter-spacing: 12px;
+                font-size: 28px;
+                letter-spacing: 8px;
+            }
+
+            .section-subtitle {
+                font-size: 10px;
+                letter-spacing: 3px;
             }
 
             .featured-grid {
                 grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+
+            .featured-image {
+                height: 160px;
+            }
+
+            .featured-badge {
+                font-size: 9px;
+                margin-bottom: 6px;
+            }
+
+            .featured-title {
+                font-size: 16px;
+                letter-spacing: 2px;
+                margin-bottom: 6px;
+                line-height: 1.4;
+            }
+
+            .featured-channel {
+                font-size: 10px;
+                margin-bottom: 4px;
+            }
+
+            .featured-stats {
+                font-size: 9px;
+            }
+
+            .articles-link-container {
+                padding: 20px 0;
+            }
+
+            .articles-link {
+                font-size: 12px;
+                letter-spacing: 4px;
+                padding: 15px 40px;
             }
 
             .rank-card {
-                gap: 15px;
+                gap: 10px;
+                padding: 12px 0;
             }
 
             .rank-number {
-                font-size: 28px;
-                min-width: 50px;
+                font-size: 20px;
+                min-width: 35px;
             }
 
             .rank-avatar {
-                width: 60px;
-                height: 60px;
+                width: 50px;
+                height: 50px;
             }
 
             .rank-title {
-                font-size: 16px;
-                letter-spacing: 2px;
+                font-size: 14px;
+                letter-spacing: 1px;
+                margin-bottom: 4px;
+            }
+
+            .rank-channel {
+                font-size: 9px;
+                margin-bottom: 4px;
+            }
+
+            .rank-stats {
+                font-size: 9px;
             }
         }
     </style>
@@ -551,123 +609,123 @@
                     <p class="section-subtitle">TODAY'S VOICE</p>
                 </div>
                 
-    <a href="https://www.youtube.com/watch?v=sGwEKfIz5ic" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=d-rb7qztccE" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">01</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/sGwEKfIz5ic/hqdefault.jpg" alt="兎晴エナ / Ena Usabara">
+            <img src="https://i.ytimg.com/vi/d-rb7qztccE/hqdefault.jpg" alt="猫宮あめり / Nekomiya Ameri 【Vsinger】">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">兎晴エナ / Ena Usabara</div>
-            <div class="rank-stats">的確すぎる名前の偏見がヤバすぎたwwwww #shorts #歌ってみた #替え歌 #vtuber　再生 142.9K　いいね 6.2K</div>
+            <div class="rank-title">猫宮あめり / Nekomiya Ameri 【Vsinger】</div>
+            <div class="rank-stats">愛言葉V／DECO*27 歌ってみた！#猫宮あめり　再生 350　いいね 5</div>
         </div>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=qlwC8wivY18" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=QvmGd-NKWjQ" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">02</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/qlwC8wivY18/hqdefault.jpg" alt="酉音 ビトラ">
+            <img src="https://i.ytimg.com/vi/QvmGd-NKWjQ/hqdefault.jpg" alt="祈莉 / Inori">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">酉音 ビトラ</div>
-            <div class="rank-stats">【歌枠】初見さん1000人耐久歌枠#shorts　再生 31.6K　いいね 503</div>
+            <div class="rank-title">祈莉 / Inori</div>
+            <div class="rank-stats">星獣戦隊ギンガマン 歌っちゃった🎶 #歌ってみた #vtuber #特撮 #スーパー戦隊 #ギンガマン　再生 296　いいね 0</div>
         </div>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=zJC10x8nIM0" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=AxAmFBpJvD8" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">03</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/zJC10x8nIM0/hqdefault.jpg" alt="Whale Taylor Ch.【ホエール・テイラー】">
+            <img src="https://i.ytimg.com/vi/AxAmFBpJvD8/hqdefault.jpg" alt="kawaiiMETALxxx">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">Whale Taylor Ch.【ホエール・テイラー】</div>
-            <div class="rank-stats">Red Hot    ELLEGARDEN #shorts #vtuber  #歌ってみた　再生 26.4K　いいね 921</div>
+            <div class="rank-title">kawaiiMETALxxx</div>
+            <div class="rank-stats">Rock Vsingerが「オーヴァークロック/Neru」（Over Clock）を熱く歌ってみた！【kawaiiMETALxxx】 #歌ってみた #cover #vsinger　再生 218　いいね 0</div>
         </div>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=Wjra0gqcAvQ" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=G_Kur1J8H-E" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">04</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/Wjra0gqcAvQ/hqdefault.jpg" alt="H.Midori Ch🍃葉山翠">
+            <img src="https://i.ytimg.com/vi/G_Kur1J8H-E/hqdefault.jpg" alt="宝愛くおーつ">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">H.Midori Ch🍃葉山翠</div>
-            <div class="rank-stats">【#力のフルコース歌枠リレー】パワフルな緑属性が参ります～！！！激しく歌うぞ！！✨【#葉山翠 #歌枠 #Vtuber #KARAOKE】　再生 17.1K　いいね 1.4K</div>
+            <div class="rank-title">宝愛くおーつ</div>
+            <div class="rank-stats">1人2役でうたってみた🐱 #猫の日 #vtuber #歌ってみた　再生 203　いいね 2</div>
         </div>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=LoPsDfrpPLI" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=nfkS98ts6Ww" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">05</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/LoPsDfrpPLI/hqdefault.jpg" alt="白河しらせ / SHIRASE SHIRAKAWA">
+            <img src="https://i.ytimg.com/vi/nfkS98ts6Ww/hqdefault.jpg" alt="有明ステラ🌟Ch. / Ariake Stella">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">白河しらせ / SHIRASE SHIRAKAWA</div>
-            <div class="rank-stats">【 縦型歌枠 】ちょっとだけ歌う🕊✨1曲聴いていってね！！singing stream #shorts #Vtuber #Vsinger【 #白河しらせ / #RIOTMUSIC 】　再生 6.3K　いいね 685</div>
+            <div class="rank-title">有明ステラ🌟Ch. / Ariake Stella</div>
+            <div class="rank-stats">【VRChat】バーチャルピューロカラオケするよ🎤🌟【歌枠】　再生 192　いいね 41</div>
         </div>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=Fi7QnVOWL-o" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=iqH6yjzS6ms" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">06</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/Fi7QnVOWL-o/hqdefault.jpg" alt="ナガレ【びじぱと】">
+            <img src="https://i.ytimg.com/vi/iqH6yjzS6ms/hqdefault.jpg" alt="Rosetta / ロゼッタ">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">ナガレ【びじぱと】</div>
-            <div class="rank-stats">【歌枠】もうすぐ登録者25万人だ！！！【雑談】【vtuber】　再生 5.0K　いいね 434</div>
+            <div class="rank-title">Rosetta / ロゼッタ</div>
+            <div class="rank-stats">〖#歌枠 / #Karaoke〗Babyfaceでお試しの歌枠🏰設定手間取るかもです…！ JP/EN ROM専さん・初見さんも大歓迎🌹| Vtuber Karaoke Stream　再生 176　いいね 45</div>
         </div>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=ajf5xgpTrLM" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=6sih85GleiU" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">07</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/ajf5xgpTrLM/hqdefault.jpg" alt="羽緒">
+            <img src="https://i.ytimg.com/vi/6sih85GleiU/hqdefault.jpg" alt="星野 夜空 / Hoshino Yozora">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">羽緒</div>
-            <div class="rank-stats">【 縦型歌枠 / #karaoke 】歌を歌うのだということはすなわち歌うということで🦉【羽緒 / RK Music】#羽緒集魂中 #vtuber #vsinger #shorts #歌枠 #作業用　再生 4.9K　いいね 533</div>
+            <div class="rank-title">星野 夜空 / Hoshino Yozora</div>
+            <div class="rank-stats">【ゲリラお歌枠】ちょこっと歌枠ですけど、初見さんに出会いたい。【Vtuber/星野夜空】　再生 164　いいね 24</div>
         </div>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=mmFowl3bDj0" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=Lnv66a5OlTU" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">08</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/mmFowl3bDj0/hqdefault.jpg" alt="kukuri ch * 戸鎖 くくり *">
+            <img src="https://i.ytimg.com/vi/Lnv66a5OlTU/hqdefault.jpg" alt="月夜味ろあ">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">kukuri ch * 戸鎖 くくり *</div>
-            <div class="rank-stats">【#歌枠 singing】今週も土曜日朝活歌枠🍞【戸鎖くくり/個人勢Vtuber】　再生 4.3K　いいね 565</div>
+            <div class="rank-title">月夜味ろあ</div>
+            <div class="rank-stats">【歌枠】冬ソング歌い納め❄️初見さん◎定期歌枠【 #月夜味ろあ 】　再生 132　いいね 34</div>
         </div>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=JX_fIfAeRYs" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=4YxFU2Z6kk0" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">09</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/JX_fIfAeRYs/hqdefault.jpg" alt="Figaro">
+            <img src="https://i.ytimg.com/vi/4YxFU2Z6kk0/hqdefault.jpg" alt="にけちゅーぶ">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">Figaro</div>
-            <div class="rank-stats">【 歌枠 / karaoke 】3連休ですって...！？ぜひ聴いていってください！ #shorts #vtuber #vsinger　再生 3.7K　いいね 662</div>
+            <div class="rank-title">にけちゅーぶ</div>
+            <div class="rank-stats">【生誕祭カウントダウン歌枠】菊乃にけの生誕祭前日歌枠配信！カバー曲盛りだくさんのライブ！【個人Vtuber】　再生 110　いいね 22</div>
         </div>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=rf2Cw4xoJ3Y" target="_blank" rel="noopener noreferrer" class="rank-card">
+    <a href="https://www.youtube.com/watch?v=I4hC6u6-R1c" target="_blank" rel="noopener noreferrer" class="rank-card">
         <div class="rank-number">10</div>
         <div class="rank-avatar">
-            <img src="https://i.ytimg.com/vi/rf2Cw4xoJ3Y/hqdefault.jpg" alt="堕天みろ / Miro Ch.">
+            <img src="https://i.ytimg.com/vi/I4hC6u6-R1c/hqdefault.jpg" alt="瘡花あのね">
         </div>
         <div class="rank-info">
             <div class="rank-channel">CHANNEL</div>
-            <div class="rank-title">堕天みろ / Miro Ch.</div>
-            <div class="rank-stats">🎶【 歌枠 / KARAOKE 】深夜の寝落ち歓迎おうた！睡眠導入や子守歌に...なるかも？ ‪‪‪‪‪‪‪‪‪‪‪ #新人Vtuber 【 るみぷろ / #堕天みろ 】　再生 3.4K　いいね 477</div>
+            <div class="rank-title">瘡花あのね</div>
+            <div class="rank-stats">【あのねの歌ってみた】革命道中／アイナ・ジ・エンド【瘡花あのね】　再生 102　いいね 2</div>
         </div>
     </a>
             </div>
@@ -757,7 +815,7 @@
         <div class="rank-info">
             <div class="rank-channel">最新動画</div>
             <div class="rank-title">幸祜 - KOKO -</div>
-            <div class="rank-stats">笑ってはいけない蛍の光 #幸祜 #shorts　再生 17.1K</div>
+            <div class="rank-stats">笑ってはいけない蛍の光 #幸祜 #shorts　再生 17.3K</div>
         </div>
     </a>
 
@@ -769,7 +827,7 @@
         <div class="rank-info">
             <div class="rank-channel">最新動画</div>
             <div class="rank-title">アエギス / Aegis Channel【音大首席オペラVsinger】</div>
-            <div class="rank-stats">【音大首席オペラVsinger】世界一楽しくて敷居が低いオペラ歌枠♪オペラで万バズしたVTuber？！【七天八十院アエギス】#新人vtuber　再生 15.8K</div>
+            <div class="rank-stats">【音大首席オペラVsinger】世界一楽しくて敷居が低いオペラ歌枠♪オペラで万バズしたVTuber？！【七天八十院アエギス】#新人vtuber　再生 15.9K</div>
         </div>
     </a>
 
@@ -805,7 +863,7 @@
         <div class="rank-info">
             <div class="rank-channel">最新動画</div>
             <div class="rank-title">花譜 -KAF-</div>
-            <div class="rank-stats">【Suite History】花譜×CHiCO「撃って」 #花譜 #CHiCO #組曲 #shorts　再生 11.3K</div>
+            <div class="rank-stats">【Suite History】花譜×CHiCO「撃って」 #花譜 #CHiCO #組曲 #shorts　再生 11.6K</div>
         </div>
     </a>
             </div>
