@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-23T11:39:41.622Z",
+  "lastUpdate": "2026-03-23T11:56:40.394Z",
   "articles": [
     {
       "date": "2026-03-22T15:00:00.000Z",
@@ -67,6 +67,44 @@
         }
       ],
       "thumbnailUrl": "https://i.ytimg.com/vi/cQcmxCJvd0A/maxresdefault.jpg",
+      "channelThumbnailUrl": ""
+    },
+    {
+      "date": "2026-03-22T15:00:00.000Z",
+      "title": "2026年3月第4週 Vsingerランキング｜推し熱量・登録者数TOP5",
+      "channelName": "WEEKLY RANKING",
+      "category": "WEEKLY RANKING",
+      "type": "editorial",
+      "videoId": "uR7gua-A4ro",
+      "channelId": "",
+      "subscribers": 0,
+      "views": 0,
+      "growth": 0,
+      "fileName": "weekly-ranking-2026-03-23.html",
+      "tweetText": "【3月第4週 #Vsinger ランキング】\n\n🔥推し熱量TOP5\n🥇 ちょき【Vsinger】　29.5%\n🥈 夏野華火Vsinger (hanabi natsuno)　17.2%\n🥉 響歌シノ-Kyoka Shino-　16.6%\n4️⃣ JUICE MUSE　16.1%\n5️⃣ いなほ【秋田のVsinger】　15.5%\n\n👑登録者数TOP5\n🥇 花譜 -KAF-　1.1M人\n🥈 明透 -ᴀsᴜ-　629.0K人\n🥉 理芽 -RIM-　395.0K人\n4️⃣ YuNi - official channel -　382.0K人\n5️⃣ shin　27.7K人\n\n詳細👇\nhttps://vsinger-chronicle.com/articles/weekly-ranking-2026-03-23.html\n\n#バーチャルシンガー #VsingerChronicle",
+      "sections": [
+        {
+          "heading": "今週のVsingerシーン総括",
+          "content": "先週のVsingerシーンは12本の記事で彩られ、多様なアーティストたちの活動が注目を集めました。推し熱量ランキングでは、登録者数3,000〜4,000人台のVsingerが上位を独占し、規模よりも熱量で勝負する構図が鮮明に。特にちょき【Vsinger】の29.5%という推し熱量は圧倒的で、小規模ながらも深い愛情を受けていることが数値からも読み取れます。一方、登録者数ランキングでは花譜が安定の首位をキープし、メジャーシーンの牽引役としての存在感を示しました。"
+        },
+        {
+          "heading": "推し熱量ランキング TOP5",
+          "content": "1位のちょき【Vsinger】は推し熱量29.5%で他を大きく引き離しました。登録者3.4K人という規模ながら、この数値は視聴者の心を深く掴んでいる証拠です。2位の夏野華火Vsinger（17.2%）、3位の響歌シノ（16.6%）も登録者4,000人台で高い熱量を記録。注目は4位のJUICE MUSE（16.1%）で、登録者384人ながらランクインは驚異的。5位いなほ【秋田のVsinger】（15.5%）は地域色も魅力の一つとなっているようです。"
+        },
+        {
+          "heading": "登録者数ランキング TOP5",
+          "content": "花譜が登録者110万人、総再生4.1億回超でトップの地位を不動のものとしています。2位明透（62.9万人）、3位理芽（39.5万人）、4位YuNi（38.2万人）と続く構図は先週から変動なし。5位のshin（2.77万人）は他の上位陣と大きく差がありますが、総再生85万回を記録しており着実にファンベースを拡大中。メジャーとインディーズの境界線が明確に表れた結果となりました。登録者数の安定感は、継続的な活動の成果を物語っています。"
+        },
+        {
+          "heading": "今週の新星Vsinger",
+          "content": "今週は「NEW DISCOVERY」に該当するVsingerはありませんでした。これは必ずしもネガティブな状況ではなく、既存アーティストたちの活動が充実していることの表れとも言えます。推し熱量ランキングに新顔が複数ランクインしていることからも、水面下で着実に成長を続けるVsingerたちの存在が感じられます。来週以降、今回注目を集めたアーティストたちが「新星」として脚光を浴びる可能性も十分にあり、シーンの底上げが期待されます。"
+        },
+        {
+          "heading": "来週の注目ポイント",
+          "content": "推し熱量29.5%を記録したちょき【Vsinger】が、この勢いを維持できるかが最大の注目点。また、JUICE MUSEのように小規模ながら高熱量を誇るVsingerが他にも現れるか要チェックです。登録者数上位陣では、shinが3万人突破を目指せるか見どころ。メジャー組は安定している分、サプライズ要素がどこから生まれるかが鍵となりそう。推し熱量と登録者数、両軸でのバランスの取れた成長を見せるVsingerの登場にも期待が高まります。"
+        }
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/uR7gua-A4ro/maxresdefault.jpg",
       "channelThumbnailUrl": ""
     },
     {
@@ -2632,7 +2670,7 @@
         "videoId": "66WNJMdSjBc",
         "thumbnailUrl": "https://i.ytimg.com/vi/66WNJMdSjBc/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【涼海ネモちゃんと】「ただ君に晴れ」歌ってみた💙【眠雲ツクリ/ミリプロ】 #vtuber #ただ君に晴れ　再生 15.9K　いいね 4.5K"
+        "stats": "【涼海ネモちゃんと】「ただ君に晴れ」歌ってみた💙【眠雲ツクリ/ミリプロ】 #vtuber #ただ君に晴れ　再生 19.3K　いいね 4.8K"
       },
       {
         "channelId": "UCe5mbpYA9Yym4lZTdj06G6Q",
@@ -2640,15 +2678,7 @@
         "videoId": "tBqNoMATJeI",
         "thumbnailUrl": "https://i.ytimg.com/vi/tBqNoMATJeI/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【#歌枠 】初見さん歓迎！55555人耐久！2周年までに達成したいんです#shorts #vtuber　再生 11.5K　いいね 510"
-      },
-      {
-        "channelId": "UCdQ9LnNR6DTj52nrpRggexg",
-        "channelName": "Serenade Ch. セレナーデ・オックスブラッド",
-        "videoId": "2Zl-DC5zJMU",
-        "thumbnailUrl": "https://i.ytimg.com/vi/2Zl-DC5zJMU/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【#歌枠/#KARAOKE】Singing Stream !! 深夜に聴きたくなる安眠歌枠‪🌙*·̩͙‬【セレナーデ・オックスブラッド/Varium】　再生 6.5K　いいね 874"
+        "stats": "【#歌枠 】初見さん歓迎！55555人耐久！2周年までに達成したいんです#shorts #vtuber　再生 11.5K　いいね 509"
       },
       {
         "channelId": "UCrtj7mTumU4Pg9sdzfGZm6Q",
@@ -2656,7 +2686,23 @@
         "videoId": "YEClEkJ-8zA",
         "thumbnailUrl": "https://i.ytimg.com/vi/YEClEkJ-8zA/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【Xで万バズ連発?!】音大首席オペラVsingerさん、歌枠で本気の「魔王」を披露してしまうwwwwww【七天八十院アエギス / 切り抜き】#新人vtuber #shorts　再生 6.4K　いいね 764"
+        "stats": "【Xで万バズ連発?!】音大首席オペラVsingerさん、歌枠で本気の「魔王」を披露してしまうwwwwww【七天八十院アエギス / 切り抜き】#新人vtuber #shorts　再生 7.1K　いいね 816"
+      },
+      {
+        "channelId": "UCdQ9LnNR6DTj52nrpRggexg",
+        "channelName": "Serenade Ch. セレナーデ・オックスブラッド",
+        "videoId": "2Zl-DC5zJMU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/2Zl-DC5zJMU/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【#歌枠/#KARAOKE】Singing Stream !! 深夜に聴きたくなる安眠歌枠‪🌙*·̩͙‬【セレナーデ・オックスブラッド/Varium】　再生 6.5K　いいね 875"
+      },
+      {
+        "channelId": "UCNskpCCH661BeRJkN8n8d-A",
+        "channelName": "UTANO ch. 白玖ウタノ",
+        "videoId": "LUrZXsyIAo8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/LUrZXsyIAo8/hqdefault.jpg",
+        "label": "CHANNEL",
+        "stats": "【歌枠】全力投球で男主人公バトル作品のアニソンを歌う‼️  #ウタノライブ【KARAOKE/Vsinger】　再生 6.0K　いいね 1.1K"
       },
       {
         "channelId": "UCdalxJy9AxOIbEaAmutHDOw",
@@ -2667,20 +2713,12 @@
         "stats": "【歌枠】④ノンストップ連続歌祭り#shorts　再生 6.0K　いいね 89"
       },
       {
-        "channelId": "UCNskpCCH661BeRJkN8n8d-A",
-        "channelName": "UTANO ch. 白玖ウタノ",
-        "videoId": "LUrZXsyIAo8",
-        "thumbnailUrl": "https://i.ytimg.com/vi/LUrZXsyIAo8/hqdefault.jpg",
-        "label": "CHANNEL",
-        "stats": "【歌枠】全力投球で男主人公バトル作品のアニソンを歌う‼️  #ウタノライブ【KARAOKE/Vsinger】　再生 5.5K　いいね 1.1K"
-      },
-      {
         "channelId": "UCdalxJy9AxOIbEaAmutHDOw",
         "channelName": "酉音 ビトラ",
         "videoId": "b-hksFv9bzk",
         "thumbnailUrl": "https://i.ytimg.com/vi/b-hksFv9bzk/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【歌枠】③ノンストップ連続歌祭り#shorts　再生 4.0K　いいね 77"
+        "stats": "【歌枠】③ノンストップ連続歌祭り#shorts　再生 4.0K　いいね 78"
       },
       {
         "channelId": "UCV5fHI5euR7ZC4ZqhYqlwYw",
@@ -2696,7 +2734,7 @@
         "videoId": "djdBr34Xo5k",
         "thumbnailUrl": "https://i.ytimg.com/vi/djdBr34Xo5k/hqdefault.jpg",
         "label": "CHANNEL",
-        "stats": "【歌枠】ハスキー低音でアコギ弾き語り【 鴉紋ゆうく/Vtuber 】　再生 3.2K　いいね 266"
+        "stats": "【歌枠】ハスキー低音でアコギ弾き語り【 鴉紋ゆうく/Vtuber 】　再生 3.2K　いいね 267"
       },
       {
         "channelId": "UC-ADLXZ3RVOPCGe1ZbuFQeg",
@@ -2730,18 +2768,18 @@
         "stats": "登録 4.3K　再生 295.1K　動画 263本"
       },
       {
-        "channelId": "UCRwn5hHhjMT_BovW9GKRSTA",
-        "channelName": "うみちゃ。-平成アニソンVsinger-",
-        "thumbnailUrl": "https://yt3.ggpht.com/jEHVZLGBIWP-DvEmw7BPQOMSJSEp4rxCUM_m42eyWvunl_Yubt-Uu2W5w3x-xl-uo7KWseu-zQ=s800-c-k-c0x00ffffff-no-rj",
-        "label": "活動12.7年",
-        "stats": "登録 1.7K　再生 177.9K　動画 104本"
+        "channelId": "UC3T4jJ11twV3RWAsYRR-XKw",
+        "channelName": "夏野華火Vsinger (hanabi natsuno)",
+        "thumbnailUrl": "https://yt3.ggpht.com/oBqx-C8NqN-VbqBuAOx8lXVWpkwq4g6O5Cxuni9w97n4KQY3docEO5AYGRrhanYf79tVG6f0fv4=s800-c-k-c0x00ffffff-no-rj",
+        "label": "活動8.9年",
+        "stats": "登録 4.0K　再生 1.2M　動画 1051本"
       },
       {
-        "channelId": "UCbDlE1tyXSrnymUAeOfiu2w",
-        "channelName": "響星ライカ🌌🦑歌枠・歌ってみた【Vsinger・VTuber】",
-        "thumbnailUrl": "https://yt3.ggpht.com/B7a_DvDihl9tXjodh7mWRoD-4vassnV9OrjDehQjebAyjEWUhQL_zwYhSAZWKOruPnMNIE9KoQ=s800-c-k-c0x00ffffff-no-rj",
+        "channelId": "UCOpP496dG3PThmI_MAS1a8w",
+        "channelName": "YUKi@Vsinger",
+        "thumbnailUrl": "https://yt3.ggpht.com/81Lv5XiiaFDWB2tm5XctV-Jvv1Cn4HrH1KYTwzCqAxdX_4L4p4sTe4atI2UuPD7xXYBvKTQi=s800-c-k-c0x00ffffff-no-rj",
         "label": "活動1.7年",
-        "stats": "登録 599　再生 25.0K　動画 65本"
+        "stats": "登録 3.3K　再生 155.3K　動画 177本"
       }
     ],
     "trending": [
@@ -2767,7 +2805,7 @@
         "videoId": "YEClEkJ-8zA",
         "thumbnailUrl": "https://yt3.ggpht.com/9dSKdvi35e8yp7IC_dON49BavX7wEObavb8k1N-DV_OZm4HsG-OwqFvWoM3Tf4tyS6sDdc3r=s800-c-k-c0x00ffffff-no-rj",
         "label": "最新動画",
-        "stats": "【Xで万バズ連発?!】音大首席オペラVsingerさん、歌枠で本気の「魔王」を披露してしまうwwwwww【七天八十院アエギス / 切り抜き】#新人vtuber #shorts　再生 6.4K"
+        "stats": "【Xで万バズ連発?!】音大首席オペラVsingerさん、歌枠で本気の「魔王」を披露してしまうwwwwww【七天八十院アエギス / 切り抜き】#新人vtuber #shorts　再生 7.1K"
       },
       {
         "channelId": "UCNskpCCH661BeRJkN8n8d-A",
@@ -2775,7 +2813,7 @@
         "videoId": "LUrZXsyIAo8",
         "thumbnailUrl": "https://yt3.ggpht.com/T0hSNqGrfZtcz9CPkimsUwc43VN8Bimy03SboQb1OcWtILiojacStkoNwKAGG4nrc8ffRFwy=s800-c-k-c0x00ffffff-no-rj",
         "label": "最新動画",
-        "stats": "【歌枠】全力投球で男主人公バトル作品のアニソンを歌う‼️  #ウタノライブ【KARAOKE/Vsinger】　再生 5.5K"
+        "stats": "【歌枠】全力投球で男主人公バトル作品のアニソンを歌う‼️  #ウタノライブ【KARAOKE/Vsinger】　再生 6.2K"
       },
       {
         "channelId": "UC8Sf60qn2xcQXLUhL9vKwbg",
