@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vsinger-chronicle.com/</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://vsinger-chronicle.com/articles.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vsinger-chronicle.com/articles/2026-03-27-UCOZvymJrEDhlINeeTJ1SGjQ.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://vsinger-chronicle.com/articles/2026-03-26-UCOpP496dG3PThmI_MAS1a8w.html</loc>
